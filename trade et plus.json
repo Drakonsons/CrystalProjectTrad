@@ -6,7 +6,7 @@
   "Version": "1.0",
   "EditorVersion": 31,
   "SteamWorkshopFileID": 0,
-  "Timestamp": "2025-05-25T14:01:58.4476492Z",
+  "Timestamp": "2025-05-26T10:19:45.0963443Z",
   "IsLocalization": false,
   "Language": null,
   "HasCustomContent": false,
@@ -2560,7 +2560,7 @@
           "IsExpanded": false
         }
       ],
-      "IsExpanded": true
+      "IsExpanded": false
     },
     {
       "ModelTypeID": 3,
@@ -2783,7 +2783,7 @@
               "IsExpanded": true
             }
           ],
-          "IsExpanded": true
+          "IsExpanded": false
         },
         {
           "ModelTypeID": 3,
@@ -2795,35 +2795,35 @@
               "ModelID": 294,
               "SortOrder": 0,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
               "ModelID": 392,
               "SortOrder": 1,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
               "ModelID": 204,
               "SortOrder": 2,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
               "ModelID": 272,
               "SortOrder": 3,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
               "ModelID": 273,
               "SortOrder": 4,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
@@ -2938,7 +2938,7 @@
               "IsExpanded": false
             }
           ],
-          "IsExpanded": false
+          "IsExpanded": true
         },
         {
           "ModelTypeID": 3,
@@ -3757,10 +3757,10 @@
                   "ModelID": 29,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
@@ -3829,10 +3829,10 @@
                   "ModelID": 76,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 15,
@@ -3884,7 +3884,7 @@
               "IsExpanded": false
             }
           ],
-          "IsExpanded": false
+          "IsExpanded": true
         },
         {
           "ModelTypeID": 5,
@@ -27312,6 +27312,71 @@
       "AbilityMods": []
     },
     {
+      "ID": 204,
+      "Name": "Explosion de Feu",
+      "Comments": "Sort de feu – Niveau II\nType : Sort offensif à cible unique – Affaiblissement – Dégâts à variance élevée",
+      "Flavor": null,
+      "Description": "Une decharge de feu instable est projetee sur l’ennemi, dont la puissance depend du caprice des flammes invoquees. Parfois une etincelle, parfois un brasier devastateur, le sort laisse derriere lui un voile brulant qui embrase",
+      "SortOrder": 42,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 467,
+      "JP": 0,
+      "HPCost": 0,
+      "MPCost": 30,
+      "APCost": 0,
+      "CTCost": 50,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 0,
+      "EnabledWeaponTypes": [],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": false,
+      "IsMAbil": true,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 100,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": null,
+      "ScalingPower": 310,
+      "BasePAtkRate": 0,
+      "BasePower": 60,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 100,
+      "PDefRate": 0,
+      "MDefRate": 100,
+      "Element": 0,
+      "TargetStatuses": [
+        {
+          "StatusID": 6,
+          "Chance": 100,
+          "Count": 4
+        }
+      ],
+      "UserStatuses": [],
+      "AbilityMods": []
+    },
+    {
       "ID": 252,
       "Name": "Morsure",
       "Comments": null,
@@ -27884,6 +27949,65 @@
       ]
     },
     {
+      "ID": 272,
+      "Name": "Orage",
+      "Comments": "Sort de foudre – Niveau I\nType : Sort offensif a cibles multiples",
+      "Flavor": null,
+      "Description": "Des nuees sombres s’amoncellent sous l’invocation du mage, liberant une pluie d’eclairs qui s’abat sur tous les ennemis. Bien que chaotique, cet orage frappe avec une precision magique, semant le trouble dans les rangs adverses.",
+      "SortOrder": 43,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 479,
+      "JP": 0,
+      "HPCost": 0,
+      "MPCost": 12,
+      "APCost": 0,
+      "CTCost": 18,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 1,
+      "Target": 0,
+      "EnabledWeaponTypes": [],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": false,
+      "IsMAbil": true,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 100,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": null,
+      "ScalingPower": 150,
+      "BasePAtkRate": 0,
+      "BasePower": 50,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 0,
+      "MDefRate": 100,
+      "Element": 4,
+      "TargetStatuses": [],
+      "UserStatuses": [],
+      "AbilityMods": []
+    },
+    {
       "ID": 274,
       "Name": "Empaler",
       "Comments": "Attaque : Puissante\nIgnore 50 % de la défense",
@@ -28250,6 +28374,71 @@
       "AbilityMods": []
     },
     {
+      "ID": 294,
+      "Name": "Brulure",
+      "Comments": "Feu I – Cible unique\nInflige un affaiblissement.",
+      "Flavor": null,
+      "Description": "Inflige des dégâts de feu légers et applique brulure",
+      "SortOrder": 40,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 467,
+      "JP": 0,
+      "HPCost": 0,
+      "MPCost": 10,
+      "APCost": 0,
+      "CTCost": 10,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 0,
+      "EnabledWeaponTypes": [],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": false,
+      "IsMAbil": true,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 100,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": null,
+      "ScalingPower": 150,
+      "BasePAtkRate": 0,
+      "BasePower": 50,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 0,
+      "MDefRate": 100,
+      "Element": 0,
+      "TargetStatuses": [
+        {
+          "StatusID": 6,
+          "Chance": 100,
+          "Count": 4
+        }
+      ],
+      "UserStatuses": [],
+      "AbilityMods": []
+    },
+    {
       "ID": 306,
       "Name": "Pince ecrasante",
       "Comments": "Attaque : Puissante\nBasée sur la Dextérité\nInflige un malus.",
@@ -28490,6 +28679,71 @@
       "TargetStatuses": [],
       "UserStatuses": [],
       "AbilityMods": []
+    },
+    {
+      "ID": 392,
+      "Name": "Cracheflamme",
+      "Comments": "Sort de feu – Niveau II\nType : Sort offensif à cible unique – Condition spéciale",
+      "Flavor": null,
+      "Description": "Le mage canalise une flamme ardente dans sa gorge magique avant de la relacher dans un souffle brulant, tel un dragon ancestral. Ce feu, plus intense et imprevisible, ne se manifeste que sous certaines conditions.",
+      "SortOrder": 41,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 467,
+      "JP": 0,
+      "HPCost": 0,
+      "MPCost": 18,
+      "APCost": 0,
+      "CTCost": 20,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 0,
+      "EnabledWeaponTypes": [],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": false,
+      "IsMAbil": true,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 100,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": null,
+      "ScalingPower": 310,
+      "BasePAtkRate": 0,
+      "BasePower": 60,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 0,
+      "MDefRate": 100,
+      "Element": 0,
+      "TargetStatuses": [],
+      "UserStatuses": [],
+      "AbilityMods": [
+        {
+          "Tag": 78,
+          "Value1": 6,
+          "Value2": 100
+        }
+      ]
     },
     {
       "ID": 399,
