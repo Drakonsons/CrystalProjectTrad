@@ -6,10 +6,10 @@
   "Version": "1.0",
   "EditorVersion": 31,
   "SteamWorkshopFileID": 3488053077,
-  "Timestamp": "2025-05-26T16:19:10.1488828Z",
+  "Timestamp": "2025-05-26T17:19:12.0529325Z",
   "IsLocalization": false,
   "Language": null,
-  "HasCustomContent": false,
+  "HasCustomContent": true,
   "Fonts": {
     "FontPixel": {
       "Standard": {
@@ -81,7 +81,201 @@
     "MemberDefaults": null,
     "BattleConfig": null,
     "FieldConfig": null,
-    "TeleportPoints": null,
+    "TeleportPoints": [
+      {
+        "Name": "Spawn Point",
+        "Coord": {
+          "X": 1,
+          "Y": 110,
+          "Z": 1
+        }
+      },
+      {
+        "Name": "Lieu de repos",
+        "Coord": {
+          "X": 1,
+          "Y": 110,
+          "Z": 1
+        }
+      },
+      {
+        "Name": "Salmon Sprint Start",
+        "Coord": {
+          "X": 256,
+          "Y": 93,
+          "Z": 56
+        }
+      },
+      {
+        "Name": "Salmon Sprint Reception",
+        "Coord": {
+          "X": 120,
+          "Y": 174,
+          "Z": -370
+        }
+      },
+      null,
+      {
+        "Name": "Quintar Race Start",
+        "Coord": {
+          "X": 210,
+          "Y": 222,
+          "Z": -563
+        }
+      },
+      {
+        "Name": "Quintar Race Reception",
+        "Coord": {
+          "X": 662,
+          "Y": 211,
+          "Z": -460
+        }
+      },
+      {
+        "Name": "Labyrinth Exit",
+        "Coord": {
+          "X": -167,
+          "Y": 128,
+          "Z": -202
+        }
+      },
+      {
+        "Name": "Quintar Race Start",
+        "Coord": {
+          "X": 746,
+          "Y": 220,
+          "Z": -353
+        }
+      },
+      {
+        "Name": "Quintar Race Start",
+        "Coord": {
+          "X": 496,
+          "Y": 234,
+          "Z": -500
+        }
+      },
+      {
+        "Name": "Quintar Race Start",
+        "Coord": {
+          "X": 382,
+          "Y": 55,
+          "Z": -600
+        }
+      },
+      {
+        "Name": "Quintar Race Start",
+        "Coord": {
+          "X": 639,
+          "Y": 195,
+          "Z": -356
+        }
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "Name": "Mercury Shrine",
+        "Coord": {
+          "X": 202,
+          "Y": 138,
+          "Z": -4
+        }
+      },
+      {
+        "Name": "Gaea Shrine",
+        "Coord": {
+          "X": 373,
+          "Y": 185,
+          "Z": -329
+        }
+      },
+      {
+        "Name": "Poseidon Shrine",
+        "Coord": {
+          "X": 111,
+          "Y": 186,
+          "Z": -391
+        }
+      },
+      {
+        "Name": "Mars Shrine",
+        "Coord": {
+          "X": -189,
+          "Y": 117,
+          "Z": -101
+        }
+      },
+      {
+        "Name": "Europa Shrine",
+        "Coord": {
+          "X": 760,
+          "Y": 105,
+          "Z": 35
+        }
+      },
+      {
+        "Name": "Ganymede Shrine",
+        "Coord": {
+          "X": 687,
+          "Y": 181,
+          "Z": -248
+        }
+      },
+      {
+        "Name": "Triton Shrine",
+        "Coord": {
+          "X": 239,
+          "Y": 210,
+          "Z": -490
+        }
+      },
+      {
+        "Name": "New World Shrine",
+        "Coord": {
+          "X": -71,
+          "Y": 11,
+          "Z": -524
+        }
+      },
+      {
+        "Name": "Callisto Shrine",
+        "Coord": {
+          "X": 193,
+          "Y": 244,
+          "Z": -255
+        }
+      },
+      {
+        "Name": "Dione Shrine",
+        "Coord": {
+          "X": 680,
+          "Y": 221,
+          "Z": -447
+        }
+      },
+      {
+        "Name": "Neptune Shrine",
+        "Coord": {
+          "X": -272,
+          "Y": 59,
+          "Z": 224
+        }
+      },
+      {
+        "Name": "Old World Shrine",
+        "Coord": {
+          "X": -233,
+          "Y": 12,
+          "Z": 184
+        }
+      }
+    ],
     "MainNpcs": null,
     "NarrationItems": null,
     "BulletinItems": null,
@@ -354,7 +548,7 @@
         "Biome": null,
         "Biome_": null,
         "LocationUnknown": "Lieux Inconnu",
-        "HomePoint": "Dernier Checkpoint",
+        "HomePoint": "Lieu de repos",
         "HomePoint_": null,
         "SetHomePoint": null,
         "WarpToHomePoint": null,
@@ -11293,7 +11487,7 @@
               "IsExpanded": false
             }
           ],
-          "IsExpanded": false
+          "IsExpanded": true
         },
         {
           "ModelTypeID": 3,
@@ -12332,7 +12526,7 @@
           "IsExpanded": false
         }
       ],
-      "IsExpanded": false
+      "IsExpanded": true
     },
     {
       "ModelTypeID": 3,
@@ -30749,14 +30943,14 @@
     },
     {
       "ID": 286,
-      "Name": "Pierre De Teleportation",
+      "Name": "Pierre de télèportation",
       "Comments": null,
       "Flavor": null,
-      "Description": null,
+      "Description": "Une jolie petite pierre bleu qui vous emmenera dans un lieu sur.",
       "SortOrder": 432,
       "TexturePath": null,
       "TextureIndex": 0,
-      "HideDamageFromDescription": false,
+      "HideDamageFromDescription": true,
       "HideScopeFromDescription": true,
       "HideStatusesFromDescription": false,
       "HideModsFromDescription": false,
@@ -32846,7 +33040,7 @@
   "Items": [
     {
       "ID": 19,
-      "Name": "Pierre De Teleportation",
+      "Name": "Pierre de télèportation",
       "Comments": null,
       "Flavor": null,
       "Description": null,
