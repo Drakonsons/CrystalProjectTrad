@@ -6,7 +6,7 @@
   "Version": "1.0",
   "EditorVersion": 31,
   "SteamWorkshopFileID": 3488053077,
-  "Timestamp": "2025-05-26T21:00:32.9146456Z",
+  "Timestamp": "2025-05-28T07:47:33.2071737Z",
   "IsLocalization": false,
   "Language": null,
   "HasCustomContent": true,
@@ -1082,10 +1082,10 @@
         "OPTION_QuitGame": "Quitter le jeu ",
         "OPTION_ImportDemoSaves": null,
         "OPTION_GraphicOptions": "Options Graphique",
-        "OPTION_AdvancedGraphicOptions": "Option Graphique Avancees",
+        "OPTION_AdvancedGraphicOptions": "Option Graphique Avancées",
         "OPTION_Dynamic": null,
         "OPTION_Fixed": null,
-        "OPTION_Controls": "Controlles",
+        "OPTION_Controls": "Controlleur",
         "OPTION_EffectVolume": null,
         "OPTION_EffectVolume_DESC": null,
         "OPTION_MusicVolume": null,
@@ -5032,7 +5032,7 @@
               "IsExpanded": true
             }
           ],
-          "IsExpanded": false
+          "IsExpanded": true
         },
         {
           "ModelTypeID": 3,
@@ -5110,7 +5110,7 @@
               "IsExpanded": true
             }
           ],
-          "IsExpanded": false
+          "IsExpanded": true
         },
         {
           "ModelTypeID": 3,
@@ -5978,7 +5978,7 @@
               "IsExpanded": true
             }
           ],
-          "IsExpanded": true
+          "IsExpanded": false
         },
         {
           "ModelTypeID": 5,
@@ -6365,10 +6365,10 @@
                   "ModelID": 32,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
@@ -6383,7 +6383,7 @@
                   "IsExpanded": false
                 }
               ],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
@@ -6530,7 +6530,7 @@
                   "IsExpanded": false
                 }
               ],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
@@ -6545,7 +6545,7 @@
                   "IsExpanded": false
                 }
               ],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
@@ -6557,10 +6557,10 @@
                   "ModelID": 522,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
@@ -6572,10 +6572,10 @@
                   "ModelID": 532,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
@@ -6587,10 +6587,10 @@
                   "ModelID": 133,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
@@ -6602,10 +6602,10 @@
                   "ModelID": 187,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
@@ -6617,10 +6617,10 @@
                   "ModelID": 41,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
@@ -6632,10 +6632,10 @@
                   "ModelID": 40,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
@@ -6647,7 +6647,7 @@
                   "ModelID": 3,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 },
                 {
                   "ModelTypeID": 15,
@@ -6657,7 +6657,7 @@
                   "IsExpanded": false
                 }
               ],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
@@ -6692,7 +6692,7 @@
                       "IsExpanded": false
                     }
                   ],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 },
                 {
                   "ModelTypeID": 15,
@@ -6702,28 +6702,28 @@
                   "IsExpanded": false
                 }
               ],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 7,
               "ModelID": 12,
               "SortOrder": 10,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 7,
               "ModelID": 71,
               "SortOrder": 11,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 7,
               "ModelID": 13,
               "SortOrder": 12,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             }
           ],
           "IsExpanded": false
@@ -7357,7 +7357,7 @@
               "ModelID": 364,
               "SortOrder": 0,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
@@ -7409,14 +7409,14 @@
               "ModelID": 245,
               "SortOrder": 4,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
               "ModelID": 376,
               "SortOrder": 5,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
@@ -7603,14 +7603,14 @@
               "ModelID": 186,
               "SortOrder": 17,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
               "ModelID": 365,
               "SortOrder": 18,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
@@ -7625,7 +7625,7 @@
                   "IsExpanded": false
                 }
               ],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 7,
@@ -7656,7 +7656,7 @@
               "IsExpanded": false
             }
           ],
-          "IsExpanded": false
+          "IsExpanded": true
         },
         {
           "ModelTypeID": 5,
@@ -10566,7 +10566,7 @@
           "IsExpanded": false
         }
       ],
-      "IsExpanded": false
+      "IsExpanded": true
     },
     {
       "ModelTypeID": 3,
@@ -29364,7 +29364,7 @@
       "Name": "Feu",
       "Comments": null,
       "Flavor": null,
-      "Description": "Sort de feu appris à l'académie des mages , brule votre adversaire avec une faible puissance d'attaque !",
+      "Description": "Sort de feu appris à l'académie des mages , brule votre adversaire avec une faible puissance d'attaque ",
       "SortOrder": 186,
       "TexturePath": null,
       "TextureIndex": 0,
@@ -29414,6 +29414,124 @@
       "PDefRate": 0,
       "MDefRate": 100,
       "Element": 0,
+      "TargetStatuses": [],
+      "UserStatuses": [],
+      "AbilityMods": []
+    },
+    {
+      "ID": 6,
+      "Name": "Eclair",
+      "Comments": null,
+      "Flavor": null,
+      "Description": "Une boule d'élèctricité foudroie votre adversaire  a faible puissance",
+      "SortOrder": 189,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": true,
+      "HideScopeFromDescription": true,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 532,
+      "JP": 100,
+      "HPCost": 0,
+      "MPCost": 8,
+      "APCost": 0,
+      "CTCost": 10,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 0,
+      "EnabledWeaponTypes": [],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": false,
+      "IsMAbil": true,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 100,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": null,
+      "ScalingPower": 180,
+      "BasePAtkRate": 0,
+      "BasePower": 50,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 0,
+      "MDefRate": 100,
+      "Element": 4,
+      "TargetStatuses": [],
+      "UserStatuses": [],
+      "AbilityMods": []
+    },
+    {
+      "ID": 7,
+      "Name": "Soin",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 176,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 32,
+      "JP": 0,
+      "HPCost": 0,
+      "MPCost": 6,
+      "APCost": 0,
+      "CTCost": 10,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": true,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 1,
+      "EnabledWeaponTypes": [],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": false,
+      "IsMAbil": true,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 0,
+      "SpiRate": 100,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": null,
+      "ScalingPower": -150,
+      "BasePAtkRate": 0,
+      "BasePower": -50,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 0,
+      "MDefRate": 0,
+      "Element": null,
       "TargetStatuses": [],
       "UserStatuses": [],
       "AbilityMods": []
@@ -29946,10 +30064,10 @@
     },
     {
       "ID": 46,
-      "Name": "Mur de flamme",
+      "Name": "Mur De Flamme",
       "Comments": null,
       "Flavor": null,
-      "Description": "Des flammes sortent du sol et brulent vos adversaire !",
+      "Description": "Des flammes sortent du sol et brulent vos adversaire avec une faible puissant d'attaque",
       "SortOrder": 187,
       "TexturePath": null,
       "TextureIndex": 0,
@@ -30000,6 +30118,431 @@
       "MDefRate": 100,
       "Element": 0,
       "TargetStatuses": [],
+      "UserStatuses": [],
+      "AbilityMods": []
+    },
+    {
+      "ID": 47,
+      "Name": "Tornades De Feu",
+      "Comments": null,
+      "Flavor": null,
+      "Description": "Des tornades de feu enveloppent vos adversaires pour faire des dégats modérés",
+      "SortOrder": 188,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": true,
+      "HideScopeFromDescription": true,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 522,
+      "JP": 500,
+      "HPCost": 0,
+      "MPCost": 42,
+      "APCost": 0,
+      "CTCost": 40,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 1,
+      "Target": 0,
+      "EnabledWeaponTypes": [],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": false,
+      "IsMAbil": true,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 100,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": null,
+      "ScalingPower": 320,
+      "BasePAtkRate": 0,
+      "BasePower": 250,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 0,
+      "MDefRate": 100,
+      "Element": 0,
+      "TargetStatuses": [],
+      "UserStatuses": [],
+      "AbilityMods": []
+    },
+    {
+      "ID": 48,
+      "Name": "Foudroiement",
+      "Comments": "",
+      "Flavor": null,
+      "Description": "La foudre tombe sur une simple en lui infligeant des dégats modérés",
+      "SortOrder": 190,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": true,
+      "HideScopeFromDescription": true,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 133,
+      "JP": 300,
+      "HPCost": 0,
+      "MPCost": 18,
+      "APCost": 0,
+      "CTCost": 20,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 0,
+      "EnabledWeaponTypes": [],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": false,
+      "IsMAbil": true,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 100,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": null,
+      "ScalingPower": 310,
+      "BasePAtkRate": 0,
+      "BasePower": 60,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 0,
+      "MDefRate": 100,
+      "Element": 4,
+      "TargetStatuses": [],
+      "UserStatuses": [],
+      "AbilityMods": []
+    },
+    {
+      "ID": 49,
+      "Name": "Cyclone Eléctrique",
+      "Comments": null,
+      "Flavor": null,
+      "Description": "Vagues d'éléctricité qui foudroient tout les adversaires avec des degats puissant",
+      "SortOrder": 191,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": true,
+      "HideScopeFromDescription": true,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 187,
+      "JP": 500,
+      "HPCost": 0,
+      "MPCost": 44,
+      "APCost": 0,
+      "CTCost": 36,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 1,
+      "Target": 0,
+      "EnabledWeaponTypes": [],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": false,
+      "IsMAbil": true,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 100,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": null,
+      "ScalingPower": 330,
+      "BasePAtkRate": 0,
+      "BasePower": 250,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 0,
+      "MDefRate": 100,
+      "Element": 4,
+      "TargetStatuses": [],
+      "UserStatuses": [],
+      "AbilityMods": []
+    },
+    {
+      "ID": 50,
+      "Name": "Explosion",
+      "Comments": "",
+      "Flavor": null,
+      "Description": "Une explosion de feu sur une cible avec des dégats puissant",
+      "SortOrder": 192,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 41,
+      "JP": 400,
+      "HPCost": 0,
+      "MPCost": 52,
+      "APCost": 0,
+      "CTCost": 62,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 0,
+      "EnabledWeaponTypes": [],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": false,
+      "IsMAbil": true,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 100,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": null,
+      "ScalingPower": 450,
+      "BasePAtkRate": 0,
+      "BasePower": 350,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 0,
+      "MDefRate": 0,
+      "Element": 0,
+      "TargetStatuses": [],
+      "UserStatuses": [],
+      "AbilityMods": []
+    },
+    {
+      "ID": 51,
+      "Name": "Jugement Dernier",
+      "Comments": null,
+      "Flavor": null,
+      "Description": "La magie ultime d'éléctricitè qui foudroie et inflige de lourd dégat à votre adversaire",
+      "SortOrder": 193,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 40,
+      "JP": 400,
+      "HPCost": 0,
+      "MPCost": 54,
+      "APCost": 0,
+      "CTCost": 26,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 0,
+      "EnabledWeaponTypes": [],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": false,
+      "IsMAbil": true,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 100,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": null,
+      "ScalingPower": 430,
+      "BasePAtkRate": 0,
+      "BasePower": 350,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 0,
+      "MDefRate": 50,
+      "Element": 4,
+      "TargetStatuses": [],
+      "UserStatuses": [],
+      "AbilityMods": []
+    },
+    {
+      "ID": 52,
+      "Name": "Posture De l'Esprit",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 194,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": true,
+      "HideScopeFromDescription": true,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 533,
+      "JP": 200,
+      "HPCost": 0,
+      "MPCost": 8,
+      "APCost": 0,
+      "CTCost": 10,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 2,
+      "EnabledWeaponTypes": [],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": false,
+      "IsMAbil": true,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 0,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": null,
+      "ScalingPower": null,
+      "BasePAtkRate": 0,
+      "BasePower": 0,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 0,
+      "MDefRate": 0,
+      "Element": null,
+      "TargetStatuses": [
+        {
+          "StatusID": 3,
+          "Chance": 100,
+          "Count": 1
+        }
+      ],
+      "UserStatuses": [],
+      "AbilityMods": []
+    },
+    {
+      "ID": 53,
+      "Name": "Posture Foudroyante",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 195,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": true,
+      "HideScopeFromDescription": true,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 137,
+      "JP": 200,
+      "HPCost": 0,
+      "MPCost": 10,
+      "APCost": 0,
+      "CTCost": 10,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 2,
+      "EnabledWeaponTypes": [],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": false,
+      "IsMAbil": true,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 0,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": null,
+      "ScalingPower": null,
+      "BasePAtkRate": 0,
+      "BasePower": 0,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 0,
+      "MDefRate": 0,
+      "Element": null,
+      "TargetStatuses": [
+        {
+          "StatusID": 4,
+          "Chance": 100,
+          "Count": 1
+        }
+      ],
       "UserStatuses": [],
       "AbilityMods": []
     },
@@ -35918,7 +36461,7 @@
             "DataID": 0,
             "PrereqLeft": false,
             "PrereqMiddle": true,
-            "PrereqRight": false
+            "PrereqRight": true
           },
           {
             "NodeType": 2,
@@ -45815,6 +46358,78 @@
           "Value1": 1,
           "Value2": 0,
           "Value3": 0
+        }
+      ]
+    },
+    {
+      "ID": 12,
+      "Name": "Spécialiste Elementaire",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "HideStatModsFromDescription": false,
+      "SortOrder": 16,
+      "JP": 500,
+      "PP": 5,
+      "IsInnate": true,
+      "IsLearnable": false,
+      "IsDefaultLocked": false,
+      "StatMods": [
+        {
+          "Tag": 405,
+          "Value1": 0,
+          "Value2": 15,
+          "Value3": 0
+        },
+        {
+          "Tag": 405,
+          "Value1": 4,
+          "Value2": 15,
+          "Value3": 0
+        }
+      ]
+    },
+    {
+      "ID": 13,
+      "Name": "Equip Baguette",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "HideStatModsFromDescription": false,
+      "SortOrder": 18,
+      "JP": 100,
+      "PP": 2,
+      "IsInnate": false,
+      "IsLearnable": true,
+      "IsDefaultLocked": false,
+      "StatMods": [
+        {
+          "Tag": 406,
+          "Value1": 9,
+          "Value2": 0,
+          "Value3": 0
+        }
+      ]
+    },
+    {
+      "ID": 71,
+      "Name": "Focus Initial",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "HideStatModsFromDescription": false,
+      "SortOrder": 17,
+      "JP": 200,
+      "PP": 3,
+      "IsInnate": false,
+      "IsLearnable": true,
+      "IsDefaultLocked": false,
+      "StatMods": [
+        {
+          "Tag": 402,
+          "Value1": 14,
+          "Value2": 100,
+          "Value3": 1
         }
       ]
     }

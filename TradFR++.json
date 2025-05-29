@@ -6,7 +6,7 @@
   "Version": "1.0",
   "EditorVersion": 31,
   "SteamWorkshopFileID": 3488053077,
-  "Timestamp": "2025-05-27T20:24:34.0887537Z",
+  "Timestamp": "2025-05-28T09:41:22.4958901Z",
   "IsLocalization": false,
   "Language": null,
   "HasCustomContent": true,
@@ -607,14 +607,14 @@
         "Jobs": null,
         "Gender": null,
         "Name": null,
-        "SubJob": null,
+        "SubJob": "Classe-Secondaire",
         "Passives": "Passifs",
         "Passives_": null,
         "EquippedPassives": null,
         "AttrComp_CurrentlyEquipped_": null,
         "AttrComp_Nothing": null,
         "AttrComp_StatChanges_": null,
-        "Learn": "Apprendre",
+        "Learn": "Talents",
         "Atlas": null,
         "AtlasRegistrar": null,
         "Item": "Inventaire",
@@ -629,7 +629,7 @@
         "Artifact": "Objet Important",
         "Artifacts": "Objet Importants",
         "Status": null,
-        "Growth": null,
+        "Growth": "Stats",
         "MiscStats": null,
         "Attributes": null,
         "Stats": null,
@@ -712,14 +712,14 @@
         "MaxHP": null,
         "MaxMP": null,
         "MaxAP": null,
-        "STR": null,
-        "VIT": null,
-        "DEX": null,
-        "AGI": null,
-        "MND": null,
-        "SPI": null,
-        "SPD": null,
-        "LCK": null,
+        "STR": "Attaque",
+        "VIT": "Résistance",
+        "DEX": "Dexterité",
+        "AGI": "Agilité",
+        "MND": "Intelligence",
+        "SPI": "Esprit",
+        "SPD": "Rapidité",
+        "LCK": "Chance",
         "STR_SHORT": null,
         "VIT_SHORT": null,
         "DEX_SHORT": null,
@@ -734,21 +734,21 @@
         "AGI_TitleDesc": null,
         "MND_TitleDesc": null,
         "SPI_TitleDesc": null,
-        "SPD_TitleDesc": null,
-        "LCK_TitleDesc": null,
+        "SPD_TitleDesc": "Rapidité",
+        "LCK_TitleDesc": "Chance",
         "PAtk": null,
         "PDef": null,
         "MDef": null,
         "PCritChance": null,
         "PCritDmg": null,
         "PAcc": null,
-        "PEva": null,
+        "PEva": "Esquive",
         "PPen": null,
         "MPen": null,
         "PBlock": null,
         "MBlock": null,
         "PVarRate": null,
-        "TT": null,
+        "TT": "Nbr Tour",
         "CT": null,
         "PAtk_SHORT": null,
         "PDef_SHORT": null,
@@ -801,13 +801,13 @@
         "Debuffs": null,
         "Stances": "Postures",
         "Weapons": "Armes",
-        "Weapons_": null,
+        "Weapons_": "Armes@V.Sep",
         "Armors": "Armures",
-        "Armors_": null,
-        "Accessories": "Accessoirs",
-        "Accessories_": null,
-        "Command": null,
-        "Command_": null,
+        "Armors_": "Armures@V.Sep",
+        "Accessories": "Accessoires",
+        "Accessories_": "Accessoires@V.Sep",
+        "Command": "Spécialité",
+        "Command_": "Spécialité@V.Sep",
         "InnatePassive": "Passif de classe",
         "InnatePassive_": "Passif de classe@V.Sep",
         "InnatePassives": "Passifs de classes",
@@ -1082,24 +1082,24 @@
         "OPTION_QuitGame": "Quitter le jeu ",
         "OPTION_ImportDemoSaves": null,
         "OPTION_GraphicOptions": "Options Graphique",
-        "OPTION_AdvancedGraphicOptions": "Option Graphique Avancees",
+        "OPTION_AdvancedGraphicOptions": "Option Graphique Avancées",
         "OPTION_Dynamic": null,
         "OPTION_Fixed": null,
-        "OPTION_Controls": "Controlles",
-        "OPTION_EffectVolume": null,
-        "OPTION_EffectVolume_DESC": null,
-        "OPTION_MusicVolume": null,
-        "OPTION_MusicVolume_DESC": null,
-        "OPTION_WeatherVolume": null,
-        "OPTION_WeatherVolume_DESC": null,
-        "OPTION_Volume_DESC_Left": null,
-        "OPTION_Volume_DESC_Right": null,
+        "OPTION_Controls": "Controlleur",
+        "OPTION_EffectVolume": "Volume Effet",
+        "OPTION_EffectVolume_DESC": "Ajuste le volume des effets en jeu.",
+        "OPTION_MusicVolume": "Volume Musique",
+        "OPTION_MusicVolume_DESC": "Ajuste le volume de la musique en jeu.",
+        "OPTION_WeatherVolume": "Volume Météo",
+        "OPTION_WeatherVolume_DESC": "Ajuste le volume de la météo en jeu, comme la pluie et le vent.",
+        "OPTION_Volume_DESC_Left": "Gauche: Augmente le volume.",
+        "OPTION_Volume_DESC_Right": "Droite: Baisse le volume.",
         "OPTION_Language": null,
         "OPTION_Language_DESC": null,
-        "OPTION_Font": null,
-        "OPTION_Font_DESC": null,
-        "OPTION_Font_DESC_Pixel": null,
-        "OPTION_Font_DESC_Smooth": null,
+        "OPTION_Font": "Police",
+        "OPTION_Font_DESC": "Changer la police de caractères.",
+        "OPTION_Font_DESC_Pixel": "Pixel: vous aimez le rétro gaming ? alors cette police est faite pour vous.",
+        "OPTION_Font_DESC_Smooth": "Soft: une police plus douce et non pixeliser.",
         "OPTION_ShowMinimap": null,
         "OPTION_ShowMinimap_DESC": null,
         "OPTION_ShowMinimap_DESC_On": null,
@@ -1108,7 +1108,7 @@
         "OPTION_AutoSave_DESC": null,
         "OPTION_AutoSave_DESC_On": null,
         "OPTION_AutoSave_DESC_Off": null,
-        "OPTION_MoreOptions": null,
+        "OPTION_MoreOptions": "Plus d'options",
         "OPTION_MORE_HEADER_Gameplay": null,
         "OPTION_MORE_HEADER_Visual": null,
         "OPTION_MORE_HEADER_Performance": null,
@@ -1128,10 +1128,10 @@
         "OPTION_EnableAutoTopUp_DESC": null,
         "OPTION_EnableAutoTopUp_DESC_On": null,
         "OPTION_EnableAutoTopUp_DESC_Off": null,
-        "OPTION_EnableAutoJump": null,
-        "OPTION_EnableAutoJump_DESC": null,
-        "OPTION_EnableAutoJump_DESC_On": null,
-        "OPTION_EnableAutoJump_DESC_Off": null,
+        "OPTION_EnableAutoJump": "Saut Auto",
+        "OPTION_EnableAutoJump_DESC": "Active / Désactive le saut automatique.",
+        "OPTION_EnableAutoJump_DESC_On": "Activer: vous permet de faire des sauts automatiquement quandvous atteignez un bord.",
+        "OPTION_EnableAutoJump_DESC_Off": "Désactiver: vous devrez sauter de vous même.",
         "OPTION_ProfanityFilter": null,
         "OPTION_ProfanityFilter_DESC": null,
         "OPTION_ProfanityFilter_DESC_On": null,
@@ -1318,7 +1318,7 @@
         "OPTION_DESC_NEW_GAME_PLUS_KeepMyQuintars": null,
         "OPTION_DESC_NEW_GAME_PLUS_KeepArchive": null,
         "OPTION_Font_Pixel": null,
-        "OPTION_Font_Smooth": null,
+        "OPTION_Font_Smooth": "Soft",
         "OPTION_Preset_Low": null,
         "OPTION_Preset_Medium": null,
         "OPTION_Preset_High": null,
@@ -2071,8 +2071,582 @@
         null,
         null
       ],
-      "StatModText": null,
-      "EquipmentSlotNames": null,
+      "StatModText": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "Inflige [v1a]% [mv1] de dégats [l]. ",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "EquipmentSlotNames": [
+        "Main Principal",
+        "Main libre",
+        "Tête",
+        "Corp",
+        "Accessoire",
+        "Accessoire"
+      ],
       "EquipmentNames": [
         "une épée",
         "une hâche",
@@ -2094,7 +2668,14 @@
         "une armure legere",
         "un accessoire"
       ],
-      "ElementNames": null,
+      "ElementNames": [
+        "Feu",
+        "Glace",
+        "Vent",
+        "Terre",
+        "Electricité",
+        "Eau"
+      ],
       "InputCharField": "1234567890\nqwertyuiop\nasdfghjkl;\nzxcvbnm,./\n!@#$%^&*()\nQWERTYUIOP\nASDFGHJKL:\nZXCVBNM<>?\r\n",
       "NewLineStartRangeList": null,
       "NewLineEndList": null,
@@ -3907,7 +4488,7 @@
               "ModelID": 38,
               "SortOrder": 4,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 15,
@@ -3928,7 +4509,7 @@
               "ModelID": 53,
               "SortOrder": 7,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 15,
@@ -4075,14 +4656,14 @@
               "ModelID": 57,
               "SortOrder": 28,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 15,
               "ModelID": 48,
               "SortOrder": 29,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 15,
@@ -4103,14 +4684,14 @@
               "ModelID": 52,
               "SortOrder": 32,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 15,
               "ModelID": 47,
               "SortOrder": 33,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 15,
@@ -4244,7 +4825,7 @@
               "ModelID": 467,
               "SortOrder": 8,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 15,
@@ -4286,56 +4867,56 @@
               "ModelID": 484,
               "SortOrder": 14,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 15,
               "ModelID": 486,
               "SortOrder": 15,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 15,
               "ModelID": 489,
               "SortOrder": 16,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 15,
               "ModelID": 561,
               "SortOrder": 17,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 15,
               "ModelID": 244,
               "SortOrder": 18,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 15,
               "ModelID": 223,
               "SortOrder": 19,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 15,
               "ModelID": 224,
               "SortOrder": 20,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 15,
               "ModelID": 242,
               "SortOrder": 21,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 15,
@@ -4349,14 +4930,14 @@
               "ModelID": 542,
               "SortOrder": 23,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 15,
               "ModelID": 502,
               "SortOrder": 24,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 15,
@@ -4370,7 +4951,7 @@
               "ModelID": 225,
               "SortOrder": 26,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 15,
@@ -4572,7 +5153,7 @@
           "ModelID": 0,
           "SortOrder": 0,
           "Children": [],
-          "IsExpanded": true
+          "IsExpanded": false
         },
         {
           "ModelTypeID": 0,
@@ -4586,28 +5167,28 @@
           "ModelID": 360,
           "SortOrder": 2,
           "Children": [],
-          "IsExpanded": true
+          "IsExpanded": false
         },
         {
           "ModelTypeID": 0,
           "ModelID": 252,
           "SortOrder": 3,
           "Children": [],
-          "IsExpanded": true
+          "IsExpanded": false
         },
         {
           "ModelTypeID": 0,
           "ModelID": 361,
           "SortOrder": 4,
           "Children": [],
-          "IsExpanded": true
+          "IsExpanded": false
         },
         {
           "ModelTypeID": 0,
           "ModelID": 258,
           "SortOrder": 5,
           "Children": [],
-          "IsExpanded": true
+          "IsExpanded": false
         },
         {
           "ModelTypeID": 0,
@@ -4619,7 +5200,7 @@
               "ModelID": 239,
               "SortOrder": 0,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             }
           ],
           "IsExpanded": false
@@ -4629,14 +5210,14 @@
           "ModelID": 460,
           "SortOrder": 7,
           "Children": [],
-          "IsExpanded": true
+          "IsExpanded": false
         },
         {
           "ModelTypeID": 0,
           "ModelID": 461,
           "SortOrder": 8,
           "Children": [],
-          "IsExpanded": true
+          "IsExpanded": false
         },
         {
           "ModelTypeID": 0,
@@ -4648,7 +5229,7 @@
               "ModelID": 273,
               "SortOrder": 0,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             }
           ],
           "IsExpanded": false
@@ -4671,210 +5252,210 @@
               "ModelID": 281,
               "SortOrder": 0,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 64,
               "SortOrder": 1,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 265,
               "SortOrder": 2,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 434,
               "SortOrder": 3,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 408,
               "SortOrder": 4,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 288,
               "SortOrder": 5,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 433,
               "SortOrder": 6,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 267,
               "SortOrder": 7,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 436,
               "SortOrder": 8,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 24,
               "SortOrder": 9,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 259,
               "SortOrder": 10,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 306,
               "SortOrder": 11,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 162,
               "SortOrder": 12,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 256,
               "SortOrder": 13,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 261,
               "SortOrder": 14,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 465,
               "SortOrder": 15,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 263,
               "SortOrder": 16,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 279,
               "SortOrder": 17,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 427,
               "SortOrder": 18,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 399,
               "SortOrder": 19,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 401,
               "SortOrder": 20,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 402,
               "SortOrder": 21,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 274,
               "SortOrder": 22,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 280,
               "SortOrder": 23,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 307,
               "SortOrder": 24,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 260,
               "SortOrder": 25,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 437,
               "SortOrder": 26,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 289,
               "SortOrder": 27,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 503,
               "SortOrder": 28,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 504,
               "SortOrder": 29,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             }
           ],
           "IsExpanded": false
@@ -4889,147 +5470,147 @@
               "ModelID": 294,
               "SortOrder": 0,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 392,
               "SortOrder": 1,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 204,
               "SortOrder": 2,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 272,
               "SortOrder": 3,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 273,
               "SortOrder": 4,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 270,
               "SortOrder": 5,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 278,
               "SortOrder": 6,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 413,
               "SortOrder": 7,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 404,
               "SortOrder": 8,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 415,
               "SortOrder": 9,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 395,
               "SortOrder": 10,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 396,
               "SortOrder": 11,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 416,
               "SortOrder": 12,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 282,
               "SortOrder": 13,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 68,
               "SortOrder": 14,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 430,
               "SortOrder": 15,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 441,
               "SortOrder": 16,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 176,
               "SortOrder": 17,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 423,
               "SortOrder": 18,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 493,
               "SortOrder": 19,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 500,
               "SortOrder": 20,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             }
           ],
           "IsExpanded": false
@@ -5044,70 +5625,70 @@
               "ModelID": 295,
               "SortOrder": 0,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 179,
               "SortOrder": 1,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 495,
               "SortOrder": 2,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 496,
               "SortOrder": 3,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 66,
               "SortOrder": 4,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 67,
               "SortOrder": 5,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 323,
               "SortOrder": 6,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 293,
               "SortOrder": 7,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 494,
               "SortOrder": 8,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 505,
               "SortOrder": 9,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             }
           ],
           "IsExpanded": false
@@ -5851,52 +6432,52 @@
                   "ModelID": 29,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": true
+                  "IsExpanded": false
                 }
               ],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 17,
               "SortOrder": 1,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 3,
               "SortOrder": 2,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 16,
               "SortOrder": 3,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 26,
               "SortOrder": 4,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 2,
               "SortOrder": 5,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 27,
               "SortOrder": 6,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
@@ -5908,10 +6489,10 @@
                   "ModelID": 75,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": true
+                  "IsExpanded": false
                 }
               ],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
@@ -5926,14 +6507,14 @@
                   "IsExpanded": false
                 }
               ],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 15,
               "ModelID": 7,
               "SortOrder": 9,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 15,
@@ -5947,14 +6528,14 @@
               "ModelID": 72,
               "SortOrder": 11,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 7,
               "ModelID": 4,
               "SortOrder": 12,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 7,
@@ -5968,14 +6549,14 @@
               "ModelID": 6,
               "SortOrder": 14,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 7,
               "ModelID": 7,
               "SortOrder": 15,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             }
           ],
           "IsExpanded": false
@@ -6439,7 +7020,7 @@
                   "ModelID": 44,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": true
+                  "IsExpanded": false
                 }
               ],
               "IsExpanded": false
@@ -6530,7 +7111,7 @@
                   "IsExpanded": false
                 }
               ],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
@@ -6545,7 +7126,7 @@
                   "IsExpanded": false
                 }
               ],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
@@ -6557,10 +7138,10 @@
                   "ModelID": 522,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": true
+                  "IsExpanded": false
                 }
               ],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
@@ -6572,10 +7153,10 @@
                   "ModelID": 532,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": true
+                  "IsExpanded": false
                 }
               ],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
@@ -6587,10 +7168,10 @@
                   "ModelID": 133,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": true
+                  "IsExpanded": false
                 }
               ],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
@@ -6602,10 +7183,10 @@
                   "ModelID": 187,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": true
+                  "IsExpanded": false
                 }
               ],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
@@ -6617,10 +7198,10 @@
                   "ModelID": 41,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": true
+                  "IsExpanded": false
                 }
               ],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
@@ -6632,10 +7213,10 @@
                   "ModelID": 40,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": true
+                  "IsExpanded": false
                 }
               ],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
@@ -6647,7 +7228,7 @@
                   "ModelID": 3,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": true
+                  "IsExpanded": false
                 },
                 {
                   "ModelTypeID": 15,
@@ -6657,7 +7238,7 @@
                   "IsExpanded": false
                 }
               ],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
@@ -6692,7 +7273,7 @@
                       "IsExpanded": false
                     }
                   ],
-                  "IsExpanded": true
+                  "IsExpanded": false
                 },
                 {
                   "ModelTypeID": 15,
@@ -6702,7 +7283,7 @@
                   "IsExpanded": false
                 }
               ],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 7,
@@ -6716,14 +7297,14 @@
               "ModelID": 71,
               "SortOrder": 11,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 7,
               "ModelID": 13,
               "SortOrder": 12,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             }
           ],
           "IsExpanded": true
@@ -7357,7 +7938,7 @@
               "ModelID": 364,
               "SortOrder": 0,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
@@ -7409,14 +7990,14 @@
               "ModelID": 245,
               "SortOrder": 4,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 376,
               "SortOrder": 5,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
@@ -7503,7 +8084,7 @@
                   "ModelID": 28,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": true
+                  "IsExpanded": false
                 }
               ],
               "IsExpanded": false
@@ -7603,14 +8184,14 @@
               "ModelID": 186,
               "SortOrder": 17,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
               "ModelID": 365,
               "SortOrder": 18,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 0,
@@ -7625,7 +8206,7 @@
                   "IsExpanded": false
                 }
               ],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 7,
@@ -11121,10 +11702,10 @@
                   "ModelID": 286,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": true
+                  "IsExpanded": false
                 }
               ],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 4,
@@ -11487,7 +12068,7 @@
               "IsExpanded": false
             }
           ],
-          "IsExpanded": true
+          "IsExpanded": false
         },
         {
           "ModelTypeID": 3,
@@ -18338,14 +18919,14 @@
           "ModelID": 16,
           "SortOrder": 0,
           "Children": [],
-          "IsExpanded": true
+          "IsExpanded": false
         },
         {
           "ModelTypeID": 8,
           "ModelID": 17,
           "SortOrder": 1,
           "Children": [],
-          "IsExpanded": true
+          "IsExpanded": false
         },
         {
           "ModelTypeID": 8,
@@ -18468,7 +19049,7 @@
           "ModelID": 47,
           "SortOrder": 14,
           "Children": [],
-          "IsExpanded": true
+          "IsExpanded": false
         },
         {
           "ModelTypeID": 8,
@@ -18611,14 +19192,14 @@
                   "ModelID": 2,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": true
+                  "IsExpanded": false
                 },
                 {
                   "ModelTypeID": 6,
                   "ModelID": 3,
                   "SortOrder": 1,
                   "Children": [],
-                  "IsExpanded": true
+                  "IsExpanded": false
                 }
               ],
               "IsExpanded": false
@@ -18633,21 +19214,21 @@
                   "ModelID": 103,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 },
                 {
                   "ModelTypeID": 10,
                   "ModelID": 1,
                   "SortOrder": 1,
                   "Children": [],
-                  "IsExpanded": true
+                  "IsExpanded": false
                 },
                 {
                   "ModelTypeID": 10,
                   "ModelID": 5,
                   "SortOrder": 2,
                   "Children": [],
-                  "IsExpanded": true
+                  "IsExpanded": false
                 },
                 {
                   "ModelTypeID": 10,
@@ -18690,10 +19271,10 @@
                   "ModelID": 3,
                   "SortOrder": 1,
                   "Children": [],
-                  "IsExpanded": true
+                  "IsExpanded": false
                 }
               ],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 10,
@@ -28598,14 +29179,14 @@
           "ModelID": 0,
           "SortOrder": 0,
           "Children": [],
-          "IsExpanded": true
+          "IsExpanded": false
         },
         {
           "ModelTypeID": 11,
           "ModelID": 1,
           "SortOrder": 1,
           "Children": [],
-          "IsExpanded": true
+          "IsExpanded": false
         },
         {
           "ModelTypeID": 12,
@@ -28633,7 +29214,7 @@
           "ModelID": 119,
           "SortOrder": 5,
           "Children": [],
-          "IsExpanded": true
+          "IsExpanded": false
         }
       ],
       "IsExpanded": false
@@ -28653,7 +29234,7 @@
               "ModelID": 63,
               "SortOrder": 0,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 15,
@@ -28848,21 +29429,21 @@
               "ModelID": 96,
               "SortOrder": 0,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 10,
               "ModelID": 119,
               "SortOrder": 1,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 6,
               "ModelID": 74,
               "SortOrder": 2,
               "Children": [],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 10,
@@ -28954,7 +29535,7 @@
           "ModelID": 0,
           "SortOrder": 5,
           "Children": [],
-          "IsExpanded": true
+          "IsExpanded": false
         },
         {
           "ModelTypeID": 6,
@@ -29066,14 +29647,14 @@
           "ModelID": 0,
           "SortOrder": 21,
           "Children": [],
-          "IsExpanded": true
+          "IsExpanded": false
         },
         {
           "ModelTypeID": 10,
           "ModelID": 287,
           "SortOrder": 22,
           "Children": [],
-          "IsExpanded": true
+          "IsExpanded": false
         },
         {
           "ModelTypeID": 10,
@@ -29094,7 +29675,7 @@
           "ModelID": 454,
           "SortOrder": 25,
           "Children": [],
-          "IsExpanded": true
+          "IsExpanded": false
         },
         {
           "ModelTypeID": 2,
@@ -29136,7 +29717,7 @@
           "ModelID": 90,
           "SortOrder": 31,
           "Children": [],
-          "IsExpanded": true
+          "IsExpanded": false
         },
         {
           "ModelTypeID": 2,
@@ -29473,6 +30054,65 @@
       "PDefRate": 0,
       "MDefRate": 100,
       "Element": 4,
+      "TargetStatuses": [],
+      "UserStatuses": [],
+      "AbilityMods": []
+    },
+    {
+      "ID": 7,
+      "Name": "Soin",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 176,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 32,
+      "JP": 0,
+      "HPCost": 0,
+      "MPCost": 6,
+      "APCost": 0,
+      "CTCost": 10,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": true,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 1,
+      "EnabledWeaponTypes": [],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": false,
+      "IsMAbil": true,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 0,
+      "SpiRate": 100,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": null,
+      "ScalingPower": -150,
+      "BasePAtkRate": 0,
+      "BasePower": -50,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 0,
+      "MDefRate": 0,
+      "Element": null,
       "TargetStatuses": [],
       "UserStatuses": [],
       "AbilityMods": []
@@ -46260,7 +46900,7 @@
   "Passives": [
     {
       "ID": 6,
-      "Name": "Equip Epee",
+      "Name": "Maîtrise Epée",
       "Comments": null,
       "Flavor": null,
       "Description": null,
@@ -46282,7 +46922,7 @@
     },
     {
       "ID": 7,
-      "Name": "Equip Hache",
+      "Name": "Maîtrise Hâche",
       "Comments": null,
       "Flavor": null,
       "Description": null,
@@ -46297,6 +46937,28 @@
         {
           "Tag": 406,
           "Value1": 1,
+          "Value2": 0,
+          "Value3": 0
+        }
+      ]
+    },
+    {
+      "ID": 11,
+      "Name": "Maîtrise Dague",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "HideStatModsFromDescription": false,
+      "SortOrder": 12,
+      "JP": 200,
+      "PP": 2,
+      "IsInnate": false,
+      "IsLearnable": true,
+      "IsDefaultLocked": false,
+      "StatMods": [
+        {
+          "Tag": 406,
+          "Value1": 2,
           "Value2": 0,
           "Value3": 0
         }
@@ -46332,7 +46994,7 @@
     },
     {
       "ID": 13,
-      "Name": "Equip Baguette",
+      "Name": "Maîtrise Baguette",
       "Comments": null,
       "Flavor": null,
       "Description": null,
@@ -46347,6 +47009,312 @@
         {
           "Tag": 406,
           "Value1": 9,
+          "Value2": 0,
+          "Value3": 0
+        }
+      ]
+    },
+    {
+      "ID": 16,
+      "Name": "Maîtrise Bâton",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "HideStatModsFromDescription": false,
+      "SortOrder": 15,
+      "JP": 100,
+      "PP": 1,
+      "IsInnate": false,
+      "IsLearnable": true,
+      "IsDefaultLocked": false,
+      "StatMods": [
+        {
+          "Tag": 406,
+          "Value1": 8,
+          "Value2": 0,
+          "Value3": 0
+        }
+      ]
+    },
+    {
+      "ID": 22,
+      "Name": "Maîtrise Rapière",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "HideStatModsFromDescription": false,
+      "SortOrder": 24,
+      "JP": 100,
+      "PP": 1,
+      "IsInnate": false,
+      "IsLearnable": true,
+      "IsDefaultLocked": false,
+      "StatMods": [
+        {
+          "Tag": 406,
+          "Value1": 3,
+          "Value2": 0,
+          "Value3": 0
+        }
+      ]
+    },
+    {
+      "ID": 29,
+      "Name": "Maîtrise Bouclier",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "HideStatModsFromDescription": false,
+      "SortOrder": 35,
+      "JP": 300,
+      "PP": 3,
+      "IsInnate": false,
+      "IsLearnable": true,
+      "IsDefaultLocked": false,
+      "StatMods": [
+        {
+          "Tag": 406,
+          "Value1": 11,
+          "Value2": 0,
+          "Value3": 0
+        }
+      ]
+    },
+    {
+      "ID": 34,
+      "Name": "Maîtrise Lance",
+      "Comments": "Note: This might need a high PP cost because spear skills on Aegis might be very strong.\r\nTODO: Verify this note!",
+      "Flavor": null,
+      "Description": null,
+      "HideStatModsFromDescription": false,
+      "SortOrder": 70,
+      "JP": 200,
+      "PP": 2,
+      "IsInnate": false,
+      "IsLearnable": true,
+      "IsDefaultLocked": false,
+      "StatMods": [
+        {
+          "Tag": 406,
+          "Value1": 5,
+          "Value2": 0,
+          "Value3": 0
+        }
+      ]
+    },
+    {
+      "ID": 38,
+      "Name": "Léviation",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "HideStatModsFromDescription": false,
+      "SortOrder": 87,
+      "JP": 0,
+      "PP": 0,
+      "IsInnate": true,
+      "IsLearnable": false,
+      "IsDefaultLocked": false,
+      "StatMods": [
+        {
+          "Tag": 531,
+          "Value1": 0,
+          "Value2": 0,
+          "Value3": 0
+        }
+      ]
+    },
+    {
+      "ID": 39,
+      "Name": "Maîtrise Livre",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "HideStatModsFromDescription": false,
+      "SortOrder": 30,
+      "JP": 300,
+      "PP": 2,
+      "IsInnate": false,
+      "IsLearnable": true,
+      "IsDefaultLocked": false,
+      "StatMods": [
+        {
+          "Tag": 406,
+          "Value1": 10,
+          "Value2": 0,
+          "Value3": 0
+        }
+      ]
+    },
+    {
+      "ID": 45,
+      "Name": "Maîtrise Arc",
+      "Comments": "This needs to cost a lot of PP because putting it on Fencer and giving them Snipe is INSANELY strong! It may even need to be removed entirely. (Or 10 PP)",
+      "Flavor": null,
+      "Description": null,
+      "HideStatModsFromDescription": false,
+      "SortOrder": 39,
+      "JP": 200,
+      "PP": 3,
+      "IsInnate": false,
+      "IsLearnable": true,
+      "IsDefaultLocked": false,
+      "StatMods": [
+        {
+          "Tag": 406,
+          "Value1": 7,
+          "Value2": 0,
+          "Value3": 0
+        }
+      ]
+    },
+    {
+      "ID": 57,
+      "Name": "Maîtrise Katana",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "HideStatModsFromDescription": false,
+      "SortOrder": 62,
+      "JP": 200,
+      "PP": 3,
+      "IsInnate": false,
+      "IsLearnable": true,
+      "IsDefaultLocked": false,
+      "StatMods": [
+        {
+          "Tag": 406,
+          "Value1": 4,
+          "Value2": 0,
+          "Value3": 0
+        }
+      ]
+    },
+    {
+      "ID": 68,
+      "Name": "Maîtrise Armes",
+      "Comments": null,
+      "Flavor": null,
+      "Description": "Equip anything regardless of current @V.Job.",
+      "HideStatModsFromDescription": true,
+      "SortOrder": 83,
+      "JP": 300,
+      "PP": 10,
+      "IsInnate": false,
+      "IsLearnable": true,
+      "IsDefaultLocked": false,
+      "StatMods": [
+        {
+          "Tag": 406,
+          "Value1": 0,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 406,
+          "Value1": 1,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 406,
+          "Value1": 2,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 406,
+          "Value1": 3,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 406,
+          "Value1": 4,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 406,
+          "Value1": 5,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 406,
+          "Value1": 6,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 406,
+          "Value1": 7,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 406,
+          "Value1": 8,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 406,
+          "Value1": 9,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 406,
+          "Value1": 10,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 406,
+          "Value1": 11,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 406,
+          "Value1": 12,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 406,
+          "Value1": 13,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 406,
+          "Value1": 14,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 406,
+          "Value1": 15,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 406,
+          "Value1": 16,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 406,
+          "Value1": 17,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 406,
+          "Value1": 18,
           "Value2": 0,
           "Value3": 0
         }
@@ -59394,6 +60362,43 @@
       },
       "SignData": null,
       "SparkData": null,
+      "DoorData": null,
+      "HomePointData": null,
+      "TreasureData": null,
+      "CrystalData": null,
+      "MarkerData": null
+    },
+    {
+      "ID": 5000,
+      "Coord": {
+        "X": 75,
+        "Y": 101,
+        "Z": 0
+      },
+      "BiomeID": 1,
+      "EntityType": 2,
+      "Comments": null,
+      "NpcData": null,
+      "SignData": null,
+      "SparkData": {
+        "SparkID": 7,
+        "IsUnique": false,
+        "IsGiant": false,
+        "SetGlobalFlagOnVictory": "Z1_IntroFlameDead",
+        "GlobalFlagOnVictoryIsTrue": true,
+        "GlobalFlagOnVictoryIsTemp": false,
+        "UnSetGlobalFlagOnSpawn": false,
+        "TriggerNpcOnVictory": null,
+        "TroopPages": [
+          {
+            "TroopID": 339,
+            "Rate": 100,
+            "IsNegation": false,
+            "MinDifficultyID": null,
+            "Condition": null
+          }
+        ]
+      },
       "DoorData": null,
       "HomePointData": null,
       "TreasureData": null,
