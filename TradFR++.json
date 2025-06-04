@@ -1,44 +1,44 @@
 {
   "ID": "5deeac19-816f-4e09-a2d7-d01a5b293bc3",
-  "Title": "TradFR",
-  "Description": "Projet de traduction du jeux + ajouts à venir",
-  "Author": "Drak et jRPGcontentCreator",
-  "Version": "1.0",
+  "Title": "Traduction Française + Optimisations ",
+  "Description": "Salut tout le monde ! \r\nPetit test de traduction FR avec son lots d'optimisation sur Crystal Project",
+  "Author": "JrpgContentCreator",
+  "Version": "1.0.1",
   "EditorVersion": 31,
-  "SteamWorkshopFileID": 3488053077,
-  "Timestamp": "2025-05-28T09:41:22.4958901Z",
+  "SteamWorkshopFileID": 0,
+  "Timestamp": "2025-06-02T14:06:11.6976363Z",
   "IsLocalization": false,
   "Language": null,
   "HasCustomContent": true,
   "Fonts": {
     "FontPixel": {
       "Standard": {
-        "TtfFileName": "ModernDOS8x16",
-        "Size": 20,
+        "TtfFileName": "PixelSerif_16px_v02",
+        "Size": 22,
         "OffsetY": 10
       },
       "StandardBold": {
-        "TtfFileName": "ModernDOS8x16",
-        "Size": 24,
+        "TtfFileName": "PixelSerif_16px_v02",
+        "Size": 18,
         "OffsetY": 10
       },
       "Small": {
-        "TtfFileName": "ModernDOS8x16",
+        "TtfFileName": "PixelSerif_16px_v02",
         "Size": 24,
         "OffsetY": 10
       },
       "SmallBold": {
-        "TtfFileName": "ModernDOS8x16",
+        "TtfFileName": "PixelSerif_16px_v02",
         "Size": 22,
         "OffsetY": 10
       },
       "Header": {
-        "TtfFileName": "ModernDOS8x16",
+        "TtfFileName": "PixelSerif_16px_v02",
         "Size": 25,
         "OffsetY": 10
       },
       "HeaderBig": {
-        "TtfFileName": "ModernDOS8x16",
+        "TtfFileName": "PixelSerif_16px_v02",
         "Size": 26,
         "OffsetY": 10
       }
@@ -78,7 +78,36 @@
   },
   "System": {
     "StartingLoot": null,
-    "MemberDefaults": null,
+    "MemberDefaults": [
+      {
+        "Name": null,
+        "Level": 1,
+        "JobID": 0,
+        "GenderID": 0,
+        "SubJobID": null
+      },
+      {
+        "Name": null,
+        "Level": 1,
+        "JobID": 5,
+        "GenderID": 1,
+        "SubJobID": null
+      },
+      {
+        "Name": null,
+        "Level": 1,
+        "JobID": 4,
+        "GenderID": 0,
+        "SubJobID": null
+      },
+      {
+        "Name": null,
+        "Level": 1,
+        "JobID": 3,
+        "GenderID": 1,
+        "SubJobID": null
+      }
+    ],
     "BattleConfig": null,
     "FieldConfig": null,
     "TeleportPoints": [
@@ -417,122 +446,122 @@
       },
       {
         "Name": "Master Warrior",
-        "Description": "Master the Warrior class.",
+        "Description": "Maîtrisez la classe Guerrier.",
         "IsHidden": false
       },
       {
         "Name": "Master Monk",
-        "Description": "Master the Monk class.",
+        "Description": "Maîtrisez la classe Moine.",
         "IsHidden": false
       },
       {
         "Name": "Master Rogue",
-        "Description": "Master the Rogue class.",
+        "Description": "Maîtrisez la classe Voleur.",
         "IsHidden": false
       },
       {
         "Name": "Master Cleric",
-        "Description": "Master the Cleric class.",
+        "Description": "Maîtrisez la classe Mage Blanc.",
         "IsHidden": false
       },
       {
         "Name": "Master Wizard",
-        "Description": "Master the Wizard class.",
+        "Description": "Maîtrisez la classe Mage Noir.",
         "IsHidden": false
       },
       {
         "Name": "Master Warlock",
-        "Description": "Master the Warlock class.",
+        "Description": "Maîtrisez la classe Mage Rouge.",
         "IsHidden": false
       },
       {
         "Name": "Master Fencer",
-        "Description": "Master the Fencer class.",
+        "Description": "Maîtrisez la classe Final Lame.",
         "IsHidden": true
       },
       {
         "Name": "Master Shaman",
-        "Description": "Master the Shaman class.",
+        "Description": "Maîtrisez la classe Chaman.",
         "IsHidden": true
       },
       {
         "Name": "Master Scholar",
-        "Description": "Master the Scholar class.",
+        "Description": "Maîtrisez la classe Erudit.",
         "IsHidden": true
       },
       {
         "Name": "Master Aegis",
-        "Description": "Master the Aegis class.",
+        "Description": "Maîtrisez la classe Aegis.",
         "IsHidden": true
       },
       {
         "Name": "Master Hunter",
-        "Description": "Master the Hunter class.",
+        "Description": "Maîtrisez la classe Chasseur.",
         "IsHidden": true
       },
       {
         "Name": "Master Chemist",
-        "Description": "Master the Chemist class.",
+        "Description": "Maîtrisez la classe Chimiste.",
         "IsHidden": true
       },
       {
         "Name": "Master Reaper",
-        "Description": "Master the Reaper class.",
+        "Description": "Maîtrisez la classe Faucheuse.",
         "IsHidden": true
       },
       {
         "Name": "Master Ninja",
-        "Description": "Master the Ninja class.",
+        "Description": "Maîtrisez la classe Ninja.",
         "IsHidden": true
       },
       {
         "Name": "Master Nomad",
-        "Description": "Master the Nomad class.",
+        "Description": "Maîtrisez la classe Nomad.",
         "IsHidden": true
       },
       {
         "Name": "Master Dervish",
-        "Description": "Master the Dervish class.",
+        "Description": "Maîtrisez la classe Dervish.",
         "IsHidden": true
       },
       {
         "Name": "Master Beatsmith",
-        "Description": "Master the Beatsmith class.",
+        "Description": "Maîtrisez la classe Beatsmith.",
         "IsHidden": true
       },
       {
         "Name": "Master Samurai",
-        "Description": "Master the Samurai class.",
+        "Description": "Maîtrisez la classe Samurai.",
         "IsHidden": true
       },
       {
         "Name": "Master Assassin",
-        "Description": "Master the Assassin class.",
+        "Description": "Maîtrisez la classe Assassin.",
         "IsHidden": true
       },
       {
         "Name": "Master Valkyrie",
-        "Description": "Master the Valkyrie class.",
+        "Description": "Maîtrisez la classe Valkyrie.",
         "IsHidden": true
       },
       {
         "Name": "Master Summoner",
-        "Description": "Master the Summoner class.",
+        "Description": "Maîtrisez la classe Invocateur.",
         "IsHidden": true
       },
       {
         "Name": "Master Beastmaster",
-        "Description": "Master the Beastmaster class.",
+        "Description": "Maîtrisez la classe Dresseur.",
         "IsHidden": true
       },
       {
         "Name": "Master Weaver",
-        "Description": "Master the Weaver class.",
+        "Description": "Maîtrisez la classe Mage Bleu.",
         "IsHidden": true
       },
       {
         "Name": "Master Mimic",
-        "Description": "Master the Mimic class.",
+        "Description": "Maîtrisez la classe Mimic.",
         "IsHidden": true
       }
     ],
@@ -540,22 +569,22 @@
     "Vocab": {
       "General": {
         "Loading___": "Chargement...",
-        "PRESS_START": "Appuyez sur Start/Enter",
-        "PRESS__": "Appuyez",
+        "PRESS_START": "Appuyez sur Start/Entrée",
+        "PRESS__": "Appuyez sur",
         "__TO_START": "Pour Commencer",
         "Currency": "Gil",
         "Currency_": "Gil@V.Sep",
-        "Biome": null,
-        "Biome_": null,
-        "LocationUnknown": "Lieux Inconnu",
-        "HomePoint": "lieu de repos",
+        "Biome": "Région",
+        "Biome_": "Région@V.Sep",
+        "LocationUnknown": "Lieu Inconnu",
+        "HomePoint": "checkpoint",
         "HomePoint_": null,
         "SetHomePoint": "Enregistrer le @V.HomePoint",
-        "WarpToHomePoint": "Télèportation @V.HomePoint",
+        "WarpToHomePoint": "Se téléporter au @V.HomePoint",
         "NewHomePointSlot": "Nouvelle Emplacement",
         "Crystal": "Cristal",
-        "PlayTime": "Temp du jeu",
-        "PlayTime_": "Joue depuis @V.Sep",
+        "PlayTime": "Tps dejeu",
+        "PlayTime_": "En jeu depuis@V.Sep ",
         "Level": null,
         "Levels": null,
         "Level_SHORT": null,
@@ -580,75 +609,75 @@
         "etc": null,
         "chance": null,
         "NA": null,
-        "TotalDamageGiven_": null,
-        "TotalDamageTaken_": null,
-        "TotalHealingGiven_": null,
-        "TotalKillsGiven_": null,
+        "TotalDamageGiven_": "Dégats infligés@V.Sep",
+        "TotalDamageTaken_": "Dégats reçus@V.Sep",
+        "TotalHealingGiven_": "Soin donné@V.Sep",
+        "TotalKillsGiven_": "Coups fatal@V.Sep",
         "Space": null,
         "BracketL": null,
         "BracketR": null,
         "Sequoia": null,
-        "Flame": null,
-        "GameMaster": null,
-        "Ban": null,
-        "Bans": null,
-        "Banned": null,
-        "Banning": null,
-        "ChangeJob": "Changement de @V.Job",
-        "Templates": null,
-        "CreateNewTemplate": null,
-        "NewTemplate": null,
-        "MemberOrder": "Ordre des persos",
+        "Flame": "Flamme",
+        "GameMaster": "Grand Maître",
+        "Ban": "Banir",
+        "Bans": "Bannis",
+        "Banned": "Bannis",
+        "Banning": "Banissement",
+        "ChangeJob": "Modifier la @V.Job",
+        "Templates": "Modèles",
+        "CreateNewTemplate": "Crée un nouveau modèle",
+        "NewTemplate": "Nouveau modèle",
+        "MemberOrder": "Positions des membres",
         "Options": null,
         "NewGame": "Nouvelle Partie",
         "Continue": "Continuer",
-        "Quit": null,
-        "Job": "Classe",
-        "Jobs": null,
-        "Gender": null,
-        "Name": null,
+        "Quit": "Quitter",
+        "Job": "classe",
+        "Jobs": "classes",
+        "Gender": "Genre",
+        "Name": "Nom",
         "SubJob": "Classe-Secondaire",
         "Passives": "Passifs",
-        "Passives_": null,
-        "EquippedPassives": null,
-        "AttrComp_CurrentlyEquipped_": null,
-        "AttrComp_Nothing": null,
-        "AttrComp_StatChanges_": null,
+        "Passives_": "Passifs@V.Sep",
+        "EquippedPassives": "Passif équipés",
+        "AttrComp_CurrentlyEquipped_": "Actuellement équipé:",
+        "AttrComp_Nothing": "(Rien)",
+        "AttrComp_StatChanges_": "Renouvellement des stats:",
         "Learn": "Talents",
         "Atlas": null,
-        "AtlasRegistrar": null,
+        "AtlasRegistrar": "Registre de l'@V.Atlas",
         "Item": "Inventaire",
         "Consumable": "Objet",
         "Consumables": "Objets",
-        "Tool": null,
+        "Tool": "Outil",
         "Tools": "Outils",
-        "Equip": "Equipements",
-        "Equipment": null,
-        "BothHands": null,
-        "TwoHanded": null,
-        "Artifact": "Objet Important",
-        "Artifacts": "Objet Importants",
-        "Status": null,
-        "Growth": "Stats",
-        "MiscStats": null,
-        "Attributes": null,
-        "Stats": null,
-        "LevelUpHistory": null,
-        "OverallGrowth": null,
-        "Ability": "Competences",
-        "Shop": null,
+        "Equip": "Equiper",
+        "Equipment": "Equipement",
+        "BothHands": "Deux Mains",
+        "TwoHanded": "A deux mains",
+        "Artifact": "Objet clé",
+        "Artifacts": "Objet clés",
+        "Status": "Statut",
+        "Growth": "Croissance",
+        "MiscStats": "Divers.",
+        "Attributes": "Attributs",
+        "Stats": "Statistiques",
+        "LevelUpHistory": "Level UP",
+        "OverallGrowth": "Progression de la croissance",
+        "Ability": "Compétences",
+        "Shop": "Magasin",
         "Buy": "Acheter",
         "Sell": "Vendre",
-        "Crafting": null,
-        "Craft": null,
-        "CraftResult_": null,
-        "LostAndFound": null,
-        "Compare": null,
-        "Yes": null,
-        "No": null,
+        "Crafting": "Artisanat",
+        "Craft": "Fabriquer",
+        "CraftResult_": "Résultat de la fabrication@V.Sep",
+        "LostAndFound": "Colis Perdus ",
+        "Compare": "Comparer",
+        "Yes": "Oui",
+        "No": "Non",
         "OK": null,
-        "On": null,
-        "Off": null,
+        "On": "Activé",
+        "Off": "Désactivé",
         "Scaled": null,
         "Full": null,
         "Unrestricted": null,
@@ -1537,8 +1566,8 @@
         "POPUP_OnlyOneCanBeEquipped": null,
         "POPUP_BonusIsDoubledWithAnother_p1": null,
         "POPUP_BonusIsDoubledWithAnother_p2": null,
-        "POPUP_JOB_CHANGE_DISABLED": null,
-        "POPUP_SUBJOB_CHANGE_DISABLED": null,
+        "POPUP_JOB_CHANGE_DISABLED": "Votre @V.Job peut uniquement être uniquement changer au checkpoint ou grâce aux cristaux.",
+        "POPUP_SUBJOB_CHANGE_DISABLED": "La @V.SubJob Job peut uniquement être uniquement changer au checkpoint ou grâce aux cristaux.",
         "POPUP_AUTO_EQUIP_CONFIRMATION": null,
         "POPUP_LEARN_CONFIRMATION": null,
         "POPUP_LEARN_PREREQUISITE_NOT_LEARNED": null,
@@ -1810,7 +1839,7 @@
         "DESC_STATUS_HIT_SURVIVED": null,
         "DESC_STATUS_HITS_SURVIVED": null,
         "DESC_STATUS_REMOVED_BY_DAMAGE": null,
-        "DESC_STATUS_RESIST_REAPPLY": null,
+        "DESC_STATUS_RESIST_REAPPLY": "Peut être appliqué uniquement une fois par combat ou après une mort.",
         "DESC_STATUS_RESIST_REINFLICT": null,
         "FORMAT_i_increased": null,
         "FORMAT_I_Increased": null,
@@ -2299,7 +2328,7 @@
         null,
         null,
         null,
-        null,
+        "Peut uniquement lancer des sorts.",
         null,
         null,
         null,
@@ -2679,7 +2708,7 @@
       "InputCharField": "1234567890\nqwertyuiop\nasdfghjkl;\nzxcvbnm,./\n!@#$%^&*()\nQWERTYUIOP\nASDFGHJKL:\nZXCVBNM<>?\r\n",
       "NewLineStartRangeList": null,
       "NewLineEndList": null,
-      "AllowNewLineAtAnyChar": false,
+      "AllowNewLineAtAnyChar": true,
       "RandNamesM": null,
       "RandNamesF": null,
       "TextReplacements": null
@@ -4530,7 +4559,7 @@
               "ModelID": 217,
               "SortOrder": 10,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 15,
@@ -4825,7 +4854,7 @@
               "ModelID": 467,
               "SortOrder": 8,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 15,
@@ -5153,7 +5182,7 @@
           "ModelID": 0,
           "SortOrder": 0,
           "Children": [],
-          "IsExpanded": false
+          "IsExpanded": true
         },
         {
           "ModelTypeID": 0,
@@ -5470,21 +5499,21 @@
               "ModelID": 294,
               "SortOrder": 0,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
               "ModelID": 392,
               "SortOrder": 1,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
               "ModelID": 204,
               "SortOrder": 2,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
@@ -5498,42 +5527,42 @@
               "ModelID": 273,
               "SortOrder": 4,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
               "ModelID": 270,
               "SortOrder": 5,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
               "ModelID": 278,
               "SortOrder": 6,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
               "ModelID": 413,
               "SortOrder": 7,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
               "ModelID": 404,
               "SortOrder": 8,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
               "ModelID": 415,
               "SortOrder": 9,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
@@ -6187,17 +6216,17 @@
                   "ModelID": 122,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 },
                 {
                   "ModelTypeID": 15,
                   "ModelID": 284,
                   "SortOrder": 1,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
@@ -6397,7 +6426,7 @@
               "ModelID": 203,
               "SortOrder": 0,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
@@ -6410,7 +6439,7 @@
           "IsExpanded": false
         }
       ],
-      "IsExpanded": false
+      "IsExpanded": true
     },
     {
       "ModelTypeID": 3,
@@ -6442,42 +6471,42 @@
               "ModelID": 17,
               "SortOrder": 1,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
               "ModelID": 3,
               "SortOrder": 2,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
               "ModelID": 16,
               "SortOrder": 3,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
               "ModelID": 26,
               "SortOrder": 4,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
               "ModelID": 2,
               "SortOrder": 5,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
               "ModelID": 27,
               "SortOrder": 6,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
@@ -6489,10 +6518,10 @@
                   "ModelID": 75,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
@@ -6507,56 +6536,56 @@
                   "IsExpanded": false
                 }
               ],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 15,
               "ModelID": 7,
               "SortOrder": 9,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 15,
               "ModelID": 8,
               "SortOrder": 10,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 7,
               "ModelID": 72,
               "SortOrder": 11,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 7,
               "ModelID": 4,
               "SortOrder": 12,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 7,
               "ModelID": 5,
               "SortOrder": 13,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 7,
               "ModelID": 6,
               "SortOrder": 14,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 7,
               "ModelID": 7,
               "SortOrder": 15,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             }
           ],
           "IsExpanded": false
@@ -6579,7 +6608,7 @@
                   "IsExpanded": false
                 }
               ],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
@@ -6591,7 +6620,7 @@
                   "ModelID": 505,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
               "IsExpanded": false
@@ -6606,7 +6635,7 @@
                   "ModelID": 507,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
               "IsExpanded": false
@@ -6621,7 +6650,7 @@
                   "ModelID": 508,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
               "IsExpanded": false
@@ -6636,7 +6665,7 @@
                   "ModelID": 45,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
               "IsExpanded": false
@@ -6705,42 +6734,42 @@
               "ModelID": 35,
               "SortOrder": 8,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
               "ModelID": 36,
               "SortOrder": 9,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 7,
               "ModelID": 87,
               "SortOrder": 10,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 7,
               "ModelID": 2,
               "SortOrder": 11,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 7,
               "ModelID": 8,
               "SortOrder": 12,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 7,
               "ModelID": 0,
               "SortOrder": 13,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             }
           ],
           "IsExpanded": false
@@ -6790,7 +6819,7 @@
                   "ModelID": 515,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
               "IsExpanded": false
@@ -6805,7 +6834,7 @@
                   "ModelID": 517,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
               "IsExpanded": false
@@ -6820,7 +6849,7 @@
                   "ModelID": 30,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
               "IsExpanded": false
@@ -6835,7 +6864,7 @@
                   "ModelID": 61,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
               "IsExpanded": false
@@ -6850,7 +6879,7 @@
                   "ModelID": 516,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
               "IsExpanded": false
@@ -6860,14 +6889,14 @@
               "ModelID": 44,
               "SortOrder": 7,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
               "ModelID": 45,
               "SortOrder": 8,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
@@ -6889,14 +6918,14 @@
               "ModelID": 17,
               "SortOrder": 10,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 7,
               "ModelID": 9,
               "SortOrder": 11,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 7,
@@ -6916,7 +6945,7 @@
                       "IsExpanded": false
                     }
                   ],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
               "IsExpanded": false
@@ -6946,7 +6975,7 @@
                   "ModelID": 32,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
               "IsExpanded": false
@@ -6976,7 +7005,7 @@
                   "ModelID": 143,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
               "IsExpanded": false
@@ -6986,14 +7015,14 @@
               "ModelID": 57,
               "SortOrder": 3,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
               "ModelID": 58,
               "SortOrder": 4,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
@@ -7005,7 +7034,7 @@
                   "ModelID": 43,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
               "IsExpanded": false
@@ -7020,7 +7049,7 @@
                   "ModelID": 44,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
               "IsExpanded": false
@@ -7030,7 +7059,7 @@
               "ModelID": 61,
               "SortOrder": 7,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
@@ -7042,7 +7071,7 @@
                   "ModelID": 21,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
               "IsExpanded": false
@@ -7057,14 +7086,14 @@
                   "ModelID": 20,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 },
                 {
                   "ModelTypeID": 15,
                   "ModelID": 66,
                   "SortOrder": 1,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
               "IsExpanded": false
@@ -7074,14 +7103,14 @@
               "ModelID": 76,
               "SortOrder": 10,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 7,
               "ModelID": 77,
               "SortOrder": 11,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 7,
@@ -7108,10 +7137,10 @@
                   "ModelID": 0,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
@@ -7123,10 +7152,10 @@
                   "ModelID": 12,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
@@ -7138,10 +7167,10 @@
                   "ModelID": 522,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
@@ -7153,10 +7182,10 @@
                   "ModelID": 532,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
@@ -7168,10 +7197,10 @@
                   "ModelID": 133,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
@@ -7183,10 +7212,10 @@
                   "ModelID": 187,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
@@ -7198,10 +7227,10 @@
                   "ModelID": 41,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
@@ -7213,10 +7242,10 @@
                   "ModelID": 40,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
@@ -7235,10 +7264,10 @@
                   "ModelID": 533,
                   "SortOrder": 1,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
@@ -7280,10 +7309,10 @@
                   "ModelID": 137,
                   "SortOrder": 1,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 7,
@@ -7307,7 +7336,7 @@
               "IsExpanded": false
             }
           ],
-          "IsExpanded": true
+          "IsExpanded": false
         },
         {
           "ModelTypeID": 5,
@@ -7324,7 +7353,7 @@
                   "ModelID": 21,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
               "IsExpanded": false
@@ -7339,7 +7368,7 @@
                   "ModelID": 33,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
               "IsExpanded": false
@@ -7354,7 +7383,7 @@
                   "ModelID": 338,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
               "IsExpanded": false
@@ -7369,7 +7398,7 @@
                   "ModelID": 184,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
               "IsExpanded": false
@@ -7394,14 +7423,14 @@
               "ModelID": 124,
               "SortOrder": 5,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
               "ModelID": 125,
               "SortOrder": 6,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
@@ -7428,7 +7457,7 @@
                   "ModelID": 62,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
               "IsExpanded": false
@@ -7443,7 +7472,7 @@
                   "ModelID": 324,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
               "IsExpanded": false
@@ -7458,7 +7487,7 @@
                   "ModelID": 102,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
               "IsExpanded": false
@@ -7512,21 +7541,21 @@
               "ModelID": 74,
               "SortOrder": 13,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 7,
               "ModelID": 32,
               "SortOrder": 14,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 7,
               "ModelID": 37,
               "SortOrder": 15,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             }
           ],
           "IsExpanded": false
@@ -7546,10 +7575,10 @@
                   "ModelID": 103,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
@@ -7561,10 +7590,10 @@
                   "ModelID": 104,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
@@ -7576,10 +7605,10 @@
                   "ModelID": 105,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
@@ -7591,10 +7620,10 @@
                   "ModelID": 106,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
@@ -7606,10 +7635,10 @@
                   "ModelID": 58,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
@@ -7621,10 +7650,10 @@
                   "ModelID": 107,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
@@ -7636,10 +7665,10 @@
                   "ModelID": 109,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
@@ -7651,10 +7680,10 @@
                   "ModelID": 108,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
@@ -7669,7 +7698,7 @@
                   "IsExpanded": false
                 }
               ],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 0,
@@ -7684,14 +7713,14 @@
                   "IsExpanded": false
                 }
               ],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 7,
               "ModelID": 20,
               "SortOrder": 10,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 7,
@@ -7706,7 +7735,7 @@
                   "IsExpanded": false
                 }
               ],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 7,
@@ -11147,7 +11176,7 @@
           "IsExpanded": false
         }
       ],
-      "IsExpanded": true
+      "IsExpanded": false
     },
     {
       "ModelTypeID": 3,
@@ -18781,7 +18810,7 @@
               "IsExpanded": false
             }
           ],
-          "IsExpanded": false
+          "IsExpanded": true
         },
         {
           "ModelTypeID": 8,
@@ -18919,14 +18948,14 @@
           "ModelID": 16,
           "SortOrder": 0,
           "Children": [],
-          "IsExpanded": false
+          "IsExpanded": true
         },
         {
           "ModelTypeID": 8,
           "ModelID": 17,
           "SortOrder": 1,
           "Children": [],
-          "IsExpanded": false
+          "IsExpanded": true
         },
         {
           "ModelTypeID": 8,
@@ -19192,17 +19221,17 @@
                   "ModelID": 2,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 },
                 {
                   "ModelTypeID": 6,
                   "ModelID": 3,
                   "SortOrder": 1,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 3,
@@ -19221,14 +19250,14 @@
                   "ModelID": 1,
                   "SortOrder": 1,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 },
                 {
                   "ModelTypeID": 10,
                   "ModelID": 5,
                   "SortOrder": 2,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 },
                 {
                   "ModelTypeID": 10,
@@ -19242,17 +19271,24 @@
                   "ModelID": 2,
                   "SortOrder": 4,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 },
                 {
                   "ModelTypeID": 10,
                   "ModelID": 6,
                   "SortOrder": 5,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
+                },
+                {
+                  "ModelTypeID": 10,
+                  "ModelID": 340,
+                  "SortOrder": 6,
+                  "Children": [],
+                  "IsExpanded": true
                 }
               ],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 3,
@@ -19271,10 +19307,10 @@
                   "ModelID": 3,
                   "SortOrder": 1,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 10,
@@ -19304,10 +19340,10 @@
               "ModelID": 73,
               "SortOrder": 4,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             }
           ],
-          "IsExpanded": false
+          "IsExpanded": true
         },
         {
           "ModelTypeID": 14,
@@ -20546,7 +20582,7 @@
           "IsExpanded": false
         }
       ],
-      "IsExpanded": false
+      "IsExpanded": true
     },
     {
       "ModelTypeID": 3,
@@ -29947,8 +29983,8 @@
       "Flavor": null,
       "Description": "Sort de feu appris à l'académie des mages , brule votre adversaire avec une faible puissance d'attaque ",
       "SortOrder": 186,
-      "TexturePath": null,
-      "TextureIndex": 0,
+      "TexturePath": "Icon/StatusA",
+      "TextureIndex": 8,
       "HideDamageFromDescription": true,
       "HideScopeFromDescription": true,
       "HideStatusesFromDescription": false,
@@ -30006,8 +30042,8 @@
       "Flavor": null,
       "Description": "Une boule d'élèctricité foudroie votre adversaire  a faible puissance",
       "SortOrder": 189,
-      "TexturePath": null,
-      "TextureIndex": 0,
+      "TexturePath": "Icon/StatusA",
+      "TextureIndex": 48,
       "HideDamageFromDescription": true,
       "HideScopeFromDescription": true,
       "HideStatusesFromDescription": false,
@@ -30060,7 +30096,7 @@
     },
     {
       "ID": 7,
-      "Name": "Soin",
+      "Name": "Soin Léger",
       "Comments": null,
       "Flavor": null,
       "Description": null,
@@ -30118,8 +30154,147 @@
       "AbilityMods": []
     },
     {
+      "ID": 8,
+      "Name": "Volée de Coups",
+      "Comments": "Note: I wanted it to be based entirely on Str, kinda like a magic spell for unarmed Str users. But this was impossible to balance for early and late game at the same time.\r\n(Well, actually, that's what is already kinda is. Since unarmed PAtk is already based entirely on Str.)",
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 155,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 506,
+      "JP": 0,
+      "HPCost": 0,
+      "MPCost": 0,
+      "APCost": 12,
+      "CTCost": 0,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 0,
+      "EnabledWeaponTypes": [
+        8
+      ],
+      "EnabledUnarmed": true,
+      "InvertEnabledTypesDisplay": true,
+      "Attribute": 0,
+      "IsPAbil": true,
+      "IsMAbil": false,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 100,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 0,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": 125,
+      "ScalingPower": 100,
+      "BasePAtkRate": 100,
+      "BasePower": 0,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 50,
+      "PDefRate": 100,
+      "MDefRate": 0,
+      "Element": null,
+      "TargetStatuses": [],
+      "UserStatuses": [],
+      "AbilityMods": []
+    },
+    {
+      "ID": 9,
+      "Name": "Frappe Discrète",
+      "Comments": "",
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 167,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 515,
+      "JP": 200,
+      "HPCost": 0,
+      "MPCost": 0,
+      "APCost": 15,
+      "CTCost": 0,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 0,
+      "EnabledWeaponTypes": [
+        2,
+        3
+      ],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": true,
+      "IsMAbil": false,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 100,
+      "AgiRate": 0,
+      "MndRate": 0,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": 100,
+      "ScalingPower": 50,
+      "BasePAtkRate": 150,
+      "BasePower": 80,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 100,
+      "MDefRate": 0,
+      "Element": null,
+      "TargetStatuses": [],
+      "UserStatuses": [],
+      "AbilityMods": [
+        {
+          "Tag": 22,
+          "Value1": 0,
+          "Value2": 0
+        },
+        {
+          "Tag": 81,
+          "Value1": -100,
+          "Value2": 0
+        },
+        {
+          "Tag": 89,
+          "Value1": 0,
+          "Value2": 0
+        }
+      ]
+    },
+    {
       "ID": 16,
-      "Name": "Atk Fulgurant",
+      "Name": "Atk Fulgurante",
       "Comments": null,
       "Flavor": null,
       "Description": null,
@@ -30191,8 +30366,8 @@
       "SortOrder": 147,
       "TexturePath": null,
       "TextureIndex": 0,
-      "HideDamageFromDescription": true,
-      "HideScopeFromDescription": true,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
       "HideStatusesFromDescription": false,
       "HideModsFromDescription": false,
       "UsageAnimationID": null,
@@ -30249,7 +30424,7 @@
     },
     {
       "ID": 18,
-      "Name": "Defenseur",
+      "Name": "Défenseur",
       "Comments": "",
       "Flavor": null,
       "Description": null,
@@ -30580,14 +30755,14 @@
     },
     {
       "ID": 28,
-      "Name": "Provoc",
+      "Name": "Provocation",
       "Comments": null,
       "Flavor": null,
-      "Description": "Deviens la @V.Threat principal.",
+      "Description": "La @V.Threat fait de vous une cible facile.",
       "SortOrder": 146,
       "TexturePath": null,
       "TextureIndex": 0,
-      "HideDamageFromDescription": true,
+      "HideDamageFromDescription": false,
       "HideScopeFromDescription": true,
       "HideStatusesFromDescription": false,
       "HideModsFromDescription": false,
@@ -30644,14 +30819,943 @@
       ]
     },
     {
+      "ID": 29,
+      "Name": "Fissure Terrestre",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 156,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 505,
+      "JP": 200,
+      "HPCost": 0,
+      "MPCost": 0,
+      "APCost": 14,
+      "CTCost": 0,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 1,
+      "Target": 0,
+      "EnabledWeaponTypes": [
+        8
+      ],
+      "EnabledUnarmed": true,
+      "InvertEnabledTypesDisplay": true,
+      "Attribute": 0,
+      "IsPAbil": true,
+      "IsMAbil": false,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 100,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 0,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": 125,
+      "ScalingPower": 50,
+      "BasePAtkRate": 100,
+      "BasePower": 0,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 50,
+      "MDefRate": 50,
+      "Element": 3,
+      "TargetStatuses": [],
+      "UserStatuses": [],
+      "AbilityMods": []
+    },
+    {
+      "ID": 30,
+      "Name": "Coup de Tonnerre",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 157,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 507,
+      "JP": 300,
+      "HPCost": 0,
+      "MPCost": 0,
+      "APCost": 14,
+      "CTCost": 0,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 0,
+      "EnabledWeaponTypes": [
+        8
+      ],
+      "EnabledUnarmed": true,
+      "InvertEnabledTypesDisplay": true,
+      "Attribute": 0,
+      "IsPAbil": true,
+      "IsMAbil": false,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 100,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 0,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": 150,
+      "ScalingPower": 75,
+      "BasePAtkRate": 100,
+      "BasePower": 0,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 50,
+      "MDefRate": 50,
+      "Element": 4,
+      "TargetStatuses": [],
+      "UserStatuses": [],
+      "AbilityMods": [
+        {
+          "Tag": 20,
+          "Value1": 0,
+          "Value2": 0
+        }
+      ]
+    },
+    {
+      "ID": 31,
+      "Name": "Point de Vent",
+      "Comments": "+Crit Dmg synergizes with Focus Energy.",
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 158,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 508,
+      "JP": 300,
+      "HPCost": 0,
+      "MPCost": 0,
+      "APCost": 22,
+      "CTCost": 0,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 0,
+      "EnabledWeaponTypes": [
+        8
+      ],
+      "EnabledUnarmed": true,
+      "InvertEnabledTypesDisplay": true,
+      "Attribute": 0,
+      "IsPAbil": true,
+      "IsMAbil": false,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 100,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 0,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": 150,
+      "ScalingPower": 100,
+      "BasePAtkRate": 100,
+      "BasePower": 0,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 100,
+      "BaseVar": 0,
+      "PDefRate": 50,
+      "MDefRate": 50,
+      "Element": 2,
+      "TargetStatuses": [],
+      "UserStatuses": [],
+      "AbilityMods": []
+    },
+    {
+      "ID": 33,
+      "Name": "Méditation",
+      "Comments": null,
+      "Flavor": null,
+      "Description": "",
+      "SortOrder": 161,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 131,
+      "JP": 100,
+      "HPCost": 0,
+      "MPCost": 0,
+      "APCost": 2,
+      "CTCost": 0,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 2,
+      "EnabledWeaponTypes": [],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": false,
+      "IsMAbil": false,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 0,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": null,
+      "ScalingPower": null,
+      "BasePAtkRate": 0,
+      "BasePower": 0,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 0,
+      "MDefRate": 0,
+      "Element": null,
+      "TargetStatuses": [],
+      "UserStatuses": [],
+      "AbilityMods": [
+        {
+          "Tag": 75,
+          "Value1": 2,
+          "Value2": 0
+        }
+      ]
+    },
+    {
+      "ID": 34,
+      "Name": "Charge Spirituel",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 162,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 132,
+      "JP": 200,
+      "HPCost": 0,
+      "MPCost": 0,
+      "APCost": 0,
+      "CTCost": 0,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 2,
+      "EnabledWeaponTypes": [],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 2,
+      "IsPAbil": false,
+      "IsMAbil": false,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 0,
+      "SpiRate": 100,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": null,
+      "ScalingPower": -3,
+      "BasePAtkRate": 0,
+      "BasePower": -3,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 0,
+      "MDefRate": 0,
+      "Element": null,
+      "TargetStatuses": [
+        {
+          "StatusID": 2,
+          "Chance": 100,
+          "Count": 1
+        }
+      ],
+      "UserStatuses": [],
+      "AbilityMods": []
+    },
+    {
+      "ID": 35,
+      "Name": "Premier Soin",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 163,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 317,
+      "JP": 100,
+      "HPCost": 0,
+      "MPCost": 0,
+      "APCost": 1,
+      "CTCost": 0,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 3,
+      "EnabledWeaponTypes": [],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": false,
+      "IsMAbil": false,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 0,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": null,
+      "ScalingPower": null,
+      "BasePAtkRate": 0,
+      "BasePower": 0,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 0,
+      "MDefRate": 0,
+      "Element": null,
+      "TargetStatuses": [],
+      "UserStatuses": [],
+      "AbilityMods": [
+        {
+          "Tag": 77,
+          "Value1": 2,
+          "Value2": 0
+        }
+      ]
+    },
+    {
+      "ID": 36,
+      "Name": "Souffle de Vie",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 164,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 317,
+      "JP": 300,
+      "HPCost": 0,
+      "MPCost": 0,
+      "APCost": 12,
+      "CTCost": 0,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 4,
+      "EnabledWeaponTypes": [],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": false,
+      "IsMAbil": false,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 0,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": null,
+      "ScalingPower": null,
+      "BasePAtkRate": 0,
+      "BasePower": -1,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 0,
+      "MDefRate": 0,
+      "Element": null,
+      "TargetStatuses": [],
+      "UserStatuses": [],
+      "AbilityMods": []
+    },
+    {
+      "ID": 37,
+      "Name": "Vol",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 165,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 121,
+      "JP": 0,
+      "HPCost": 0,
+      "MPCost": 0,
+      "APCost": 0,
+      "CTCost": 0,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 0,
+      "EnabledWeaponTypes": [],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": false,
+      "IsMAbil": false,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 0,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": null,
+      "ScalingPower": null,
+      "BasePAtkRate": 0,
+      "BasePower": 0,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 0,
+      "MDefRate": 0,
+      "Element": null,
+      "TargetStatuses": [],
+      "UserStatuses": [],
+      "AbilityMods": [
+        {
+          "Tag": 0,
+          "Value1": 0,
+          "Value2": 0
+        }
+      ]
+    },
+    {
+      "ID": 38,
+      "Name": "Coup Vicieux",
+      "Comments": null,
+      "Flavor": null,
+      "Description": "",
+      "SortOrder": 168,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 517,
+      "JP": 100,
+      "HPCost": 0,
+      "MPCost": 0,
+      "APCost": 10,
+      "CTCost": 0,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 0,
+      "EnabledWeaponTypes": [
+        2,
+        3
+      ],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": true,
+      "IsMAbil": false,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 100,
+      "AgiRate": 0,
+      "MndRate": 0,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": 100,
+      "ScalingPower": 100,
+      "BasePAtkRate": 200,
+      "BasePower": 50,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 100,
+      "MDefRate": 0,
+      "Element": null,
+      "TargetStatuses": [],
+      "UserStatuses": [],
+      "AbilityMods": [
+        {
+          "Tag": 89,
+          "Value1": 0,
+          "Value2": 0
+        }
+      ]
+    },
+    {
+      "ID": 39,
+      "Name": "Taillade Furtive",
+      "Comments": "The threat requirement makes this hard to abuse, so I can get away with a low-ish AP cost.",
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 170,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 61,
+      "JP": 300,
+      "HPCost": 0,
+      "MPCost": 0,
+      "APCost": 12,
+      "CTCost": 0,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 0,
+      "EnabledWeaponTypes": [
+        2
+      ],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": true,
+      "IsMAbil": false,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 100,
+      "AgiRate": 0,
+      "MndRate": 0,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": 25,
+      "ScalingPower": 25,
+      "BasePAtkRate": 50,
+      "BasePower": 0,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 100,
+      "MDefRate": 0,
+      "Element": null,
+      "TargetStatuses": [],
+      "UserStatuses": [],
+      "AbilityMods": [
+        {
+          "Tag": 101,
+          "Value1": 0,
+          "Value2": 0
+        },
+        {
+          "Tag": 89,
+          "Value1": 0,
+          "Value2": 0
+        }
+      ]
+    },
+    {
+      "ID": 40,
+      "Name": "Lame D'ombre",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 166,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 514,
+      "JP": 100,
+      "HPCost": 0,
+      "MPCost": 0,
+      "APCost": 0,
+      "CTCost": 0,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 0,
+      "EnabledWeaponTypes": [
+        2,
+        3
+      ],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": true,
+      "IsMAbil": false,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 100,
+      "AgiRate": 0,
+      "MndRate": 0,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": 50,
+      "ScalingPower": 50,
+      "BasePAtkRate": 100,
+      "BasePower": 0,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 100,
+      "MDefRate": 0,
+      "Element": null,
+      "TargetStatuses": [],
+      "UserStatuses": [],
+      "AbilityMods": [
+        {
+          "Tag": 22,
+          "Value1": 0,
+          "Value2": 0
+        },
+        {
+          "Tag": 81,
+          "Value1": -100,
+          "Value2": 0
+        },
+        {
+          "Tag": 89,
+          "Value1": 0,
+          "Value2": 0
+        }
+      ]
+    },
+    {
+      "ID": 43,
+      "Name": "Coup Aveuglant",
+      "Comments": "This used to be a general ability but was changed to a dagger skill.\r\nIt was changed so that it harder to form a team where everyone sub-classes Rogue and spams Blind.\r\nThe threat requirement makes this hard to abuse, so I can get away with a low-ish AP cost.",
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 171,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 516,
+      "JP": 200,
+      "HPCost": 0,
+      "MPCost": 0,
+      "APCost": 12,
+      "CTCost": 0,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 0,
+      "EnabledWeaponTypes": [
+        2
+      ],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": true,
+      "IsMAbil": false,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 100,
+      "AgiRate": 0,
+      "MndRate": 0,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": 25,
+      "ScalingPower": 25,
+      "BasePAtkRate": 50,
+      "BasePower": 0,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 100,
+      "MDefRate": 0,
+      "Element": null,
+      "TargetStatuses": [
+        {
+          "StatusID": 7,
+          "Chance": 100,
+          "Count": 1
+        }
+      ],
+      "UserStatuses": [],
+      "AbilityMods": [
+        {
+          "Tag": 89,
+          "Value1": 0,
+          "Value2": 0
+        }
+      ]
+    },
+    {
+      "ID": 44,
+      "Name": "Poudre dodo ",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 172,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 129,
+      "JP": 200,
+      "HPCost": 0,
+      "MPCost": 0,
+      "APCost": 6,
+      "CTCost": 0,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 0,
+      "EnabledWeaponTypes": [],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": false,
+      "IsMAbil": false,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 0,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": null,
+      "ScalingPower": null,
+      "BasePAtkRate": 0,
+      "BasePower": 0,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 0,
+      "MDefRate": 0,
+      "Element": null,
+      "TargetStatuses": [
+        {
+          "StatusID": 11,
+          "Chance": 100,
+          "Count": 2
+        }
+      ],
+      "UserStatuses": [],
+      "AbilityMods": []
+    },
+    {
+      "ID": 45,
+      "Name": "Fuite",
+      "Comments": "",
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 173,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 130,
+      "JP": 200,
+      "HPCost": 0,
+      "MPCost": 0,
+      "APCost": 12,
+      "CTCost": 0,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 2,
+      "EnabledWeaponTypes": [],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": false,
+      "IsMAbil": false,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 0,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": null,
+      "ScalingPower": null,
+      "BasePAtkRate": 0,
+      "BasePower": 0,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 0,
+      "MDefRate": 0,
+      "Element": null,
+      "TargetStatuses": [],
+      "UserStatuses": [],
+      "AbilityMods": [
+        {
+          "Tag": 1,
+          "Value1": 0,
+          "Value2": 0
+        }
+      ]
+    },
+    {
       "ID": 46,
       "Name": "Mur De Flamme",
       "Comments": null,
       "Flavor": null,
       "Description": "Des flammes sortent du sol et brulent vos adversaire avec une faible puissant d'attaque",
       "SortOrder": 187,
-      "TexturePath": null,
-      "TextureIndex": 0,
+      "TexturePath": "Icon/StatusA",
+      "TextureIndex": 8,
       "HideDamageFromDescription": true,
       "HideScopeFromDescription": true,
       "HideStatusesFromDescription": false,
@@ -30709,8 +31813,8 @@
       "Flavor": null,
       "Description": "Des tornades de feu enveloppent vos adversaires pour faire des dégats modérés",
       "SortOrder": 188,
-      "TexturePath": null,
-      "TextureIndex": 0,
+      "TexturePath": "Icon/StatusA",
+      "TextureIndex": 8,
       "HideDamageFromDescription": true,
       "HideScopeFromDescription": true,
       "HideStatusesFromDescription": false,
@@ -30768,8 +31872,8 @@
       "Flavor": null,
       "Description": "La foudre tombe sur une simple en lui infligeant des dégats modérés",
       "SortOrder": 190,
-      "TexturePath": null,
-      "TextureIndex": 0,
+      "TexturePath": "Icon/StatusA",
+      "TextureIndex": 48,
       "HideDamageFromDescription": true,
       "HideScopeFromDescription": true,
       "HideStatusesFromDescription": false,
@@ -30827,8 +31931,8 @@
       "Flavor": null,
       "Description": "Vagues d'éléctricité qui foudroient tout les adversaires avec des degats puissant",
       "SortOrder": 191,
-      "TexturePath": null,
-      "TextureIndex": 0,
+      "TexturePath": "Icon/StatusA",
+      "TextureIndex": 48,
       "HideDamageFromDescription": true,
       "HideScopeFromDescription": true,
       "HideStatusesFromDescription": false,
@@ -30886,8 +31990,8 @@
       "Flavor": null,
       "Description": "Une explosion de feu sur une cible avec des dégats puissant",
       "SortOrder": 192,
-      "TexturePath": null,
-      "TextureIndex": 0,
+      "TexturePath": "Icon/StatusA",
+      "TextureIndex": 8,
       "HideDamageFromDescription": false,
       "HideScopeFromDescription": false,
       "HideStatusesFromDescription": false,
@@ -30945,8 +32049,8 @@
       "Flavor": null,
       "Description": "La magie ultime d'éléctricitè qui foudroie et inflige de lourd dégat à votre adversaire",
       "SortOrder": 193,
-      "TexturePath": null,
-      "TextureIndex": 0,
+      "TexturePath": "Icon/StatusA",
+      "TextureIndex": 48,
       "HideDamageFromDescription": false,
       "HideScopeFromDescription": false,
       "HideStatusesFromDescription": false,
@@ -31004,8 +32108,8 @@
       "Flavor": null,
       "Description": null,
       "SortOrder": 194,
-      "TexturePath": null,
-      "TextureIndex": 0,
+      "TexturePath": "Icon/StatusB",
+      "TextureIndex": 14,
       "HideDamageFromDescription": true,
       "HideScopeFromDescription": true,
       "HideStatusesFromDescription": false,
@@ -31069,8 +32173,8 @@
       "Flavor": null,
       "Description": null,
       "SortOrder": 195,
-      "TexturePath": null,
-      "TextureIndex": 0,
+      "TexturePath": "Icon/StatusB",
+      "TextureIndex": 15,
       "HideDamageFromDescription": true,
       "HideScopeFromDescription": true,
       "HideStatusesFromDescription": false,
@@ -31122,6 +32226,555 @@
           "StatusID": 4,
           "Chance": 100,
           "Count": 1
+        }
+      ],
+      "UserStatuses": [],
+      "AbilityMods": []
+    },
+    {
+      "ID": 55,
+      "Name": "Onde Vitale",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 177,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 142,
+      "JP": 300,
+      "HPCost": 0,
+      "MPCost": 14,
+      "APCost": 0,
+      "CTCost": 16,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": true,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 1,
+      "EnabledWeaponTypes": [],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": false,
+      "IsMAbil": true,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 0,
+      "SpiRate": 100,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": null,
+      "ScalingPower": -200,
+      "BasePAtkRate": 0,
+      "BasePower": -150,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 0,
+      "MDefRate": 0,
+      "Element": null,
+      "TargetStatuses": [],
+      "UserStatuses": [],
+      "AbilityMods": []
+    },
+    {
+      "ID": 56,
+      "Name": "Aura de Guérison",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 178,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 143,
+      "JP": 400,
+      "HPCost": 0,
+      "MPCost": 28,
+      "APCost": 0,
+      "CTCost": 24,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": true,
+      "ScopeLocked": false,
+      "Scope": 1,
+      "Target": 1,
+      "EnabledWeaponTypes": [],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": false,
+      "IsMAbil": true,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 0,
+      "SpiRate": 100,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": null,
+      "ScalingPower": -200,
+      "BasePAtkRate": 0,
+      "BasePower": -150,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 0,
+      "MDefRate": 0,
+      "Element": null,
+      "TargetStatuses": [],
+      "UserStatuses": [],
+      "AbilityMods": []
+    },
+    {
+      "ID": 57,
+      "Name": "Souffle Vie",
+      "Comments": "",
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 179,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 144,
+      "JP": 200,
+      "HPCost": 0,
+      "MPCost": 16,
+      "APCost": 0,
+      "CTCost": 16,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": true,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 4,
+      "EnabledWeaponTypes": [],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": false,
+      "IsMAbil": true,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 0,
+      "SpiRate": 100,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": null,
+      "ScalingPower": -100,
+      "BasePAtkRate": 0,
+      "BasePower": -60,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 0,
+      "MDefRate": 0,
+      "Element": null,
+      "TargetStatuses": [],
+      "UserStatuses": [],
+      "AbilityMods": []
+    },
+    {
+      "ID": 58,
+      "Name": "Renaissance",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 180,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 144,
+      "JP": 500,
+      "HPCost": 0,
+      "MPCost": 42,
+      "APCost": 0,
+      "CTCost": 34,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": true,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 4,
+      "EnabledWeaponTypes": [],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": false,
+      "IsMAbil": true,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 0,
+      "SpiRate": 100,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": null,
+      "ScalingPower": -250,
+      "BasePAtkRate": 0,
+      "BasePower": -150,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 0,
+      "MDefRate": 0,
+      "Element": null,
+      "TargetStatuses": [],
+      "UserStatuses": [],
+      "AbilityMods": []
+    },
+    {
+      "ID": 59,
+      "Name": "Eclat Sacré",
+      "Comments": "",
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 181,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 43,
+      "JP": 100,
+      "HPCost": 0,
+      "MPCost": 8,
+      "APCost": 0,
+      "CTCost": 18,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 0,
+      "EnabledWeaponTypes": [],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": false,
+      "IsMAbil": true,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 0,
+      "SpiRate": 100,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": null,
+      "ScalingPower": 180,
+      "BasePAtkRate": 0,
+      "BasePower": 60,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 0,
+      "MDefRate": 100,
+      "Element": null,
+      "TargetStatuses": [],
+      "UserStatuses": [],
+      "AbilityMods": []
+    },
+    {
+      "ID": 60,
+      "Name": "Eclat Astral",
+      "Comments": "",
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 182,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 44,
+      "JP": 500,
+      "HPCost": 0,
+      "MPCost": 56,
+      "APCost": 0,
+      "CTCost": 42,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 0,
+      "EnabledWeaponTypes": [],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": false,
+      "IsMAbil": true,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 0,
+      "SpiRate": 100,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": null,
+      "ScalingPower": 600,
+      "BasePAtkRate": 0,
+      "BasePower": 350,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 0,
+      "MDefRate": 100,
+      "Element": null,
+      "TargetStatuses": [],
+      "UserStatuses": [],
+      "AbilityMods": []
+    },
+    {
+      "ID": 61,
+      "Name": "Purification",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 183,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 317,
+      "JP": 100,
+      "HPCost": 0,
+      "MPCost": 6,
+      "APCost": 0,
+      "CTCost": 8,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 1,
+      "EnabledWeaponTypes": [],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": false,
+      "IsMAbil": true,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 0,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": null,
+      "ScalingPower": null,
+      "BasePAtkRate": 0,
+      "BasePower": 0,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 0,
+      "MDefRate": 0,
+      "Element": null,
+      "TargetStatuses": [],
+      "UserStatuses": [],
+      "AbilityMods": [
+        {
+          "Tag": 75,
+          "Value1": 2,
+          "Value2": 0
+        }
+      ]
+    },
+    {
+      "ID": 62,
+      "Name": "Faille Lumineuse",
+      "Comments": "Should I call it \"Nullifire\"?",
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 185,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 66,
+      "JP": 300,
+      "HPCost": 0,
+      "MPCost": 20,
+      "APCost": 0,
+      "CTCost": 16,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 2,
+      "Target": 0,
+      "EnabledWeaponTypes": [],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": false,
+      "IsMAbil": true,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 0,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": null,
+      "ScalingPower": null,
+      "BasePAtkRate": 0,
+      "BasePower": 0,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 0,
+      "MDefRate": 0,
+      "Element": null,
+      "TargetStatuses": [
+        {
+          "StatusID": 20,
+          "Chance": 100,
+          "Count": 3
+        }
+      ],
+      "UserStatuses": [],
+      "AbilityMods": []
+    },
+    {
+      "ID": 63,
+      "Name": "Lueur Ardante",
+      "Comments": "Should have no/low CT so that it can easily combo by inserting it before spells that are currently charging.",
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 184,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 317,
+      "JP": 300,
+      "HPCost": 0,
+      "MPCost": 15,
+      "APCost": 0,
+      "CTCost": 2,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 0,
+      "EnabledWeaponTypes": [],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": false,
+      "IsMAbil": true,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 0,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": null,
+      "ScalingPower": null,
+      "BasePAtkRate": 0,
+      "BasePower": 0,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 0,
+      "MDefRate": 0,
+      "Element": null,
+      "TargetStatuses": [
+        {
+          "StatusID": 21,
+          "Chance": 100,
+          "Count": 2
         }
       ],
       "UserStatuses": [],
@@ -31398,6 +33051,1062 @@
       "AbilityMods": []
     },
     {
+      "ID": 71,
+      "Name": "Estoc Empoisonné",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 210,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 103,
+      "JP": 0,
+      "HPCost": 0,
+      "MPCost": 0,
+      "APCost": 6,
+      "CTCost": 0,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 0,
+      "EnabledWeaponTypes": [
+        0,
+        3
+      ],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": true,
+      "Attribute": 0,
+      "IsPAbil": true,
+      "IsMAbil": false,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 100,
+      "MndRate": 0,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": 50,
+      "ScalingPower": 50,
+      "BasePAtkRate": 100,
+      "BasePower": 0,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 100,
+      "MDefRate": 0,
+      "Element": null,
+      "TargetStatuses": [
+        {
+          "StatusID": 0,
+          "Chance": 100,
+          "Count": 3
+        }
+      ],
+      "UserStatuses": [],
+      "AbilityMods": []
+    },
+    {
+      "ID": 72,
+      "Name": "Estoc Sanguinaire",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 211,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 104,
+      "JP": 100,
+      "HPCost": 0,
+      "MPCost": 0,
+      "APCost": 6,
+      "CTCost": 0,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 0,
+      "EnabledWeaponTypes": [
+        0,
+        3
+      ],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": true,
+      "Attribute": 0,
+      "IsPAbil": true,
+      "IsMAbil": false,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 100,
+      "MndRate": 0,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": 50,
+      "ScalingPower": 50,
+      "BasePAtkRate": 100,
+      "BasePower": 0,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 100,
+      "MDefRate": 0,
+      "Element": null,
+      "TargetStatuses": [
+        {
+          "StatusID": 5,
+          "Chance": 100,
+          "Count": 3
+        }
+      ],
+      "UserStatuses": [],
+      "AbilityMods": []
+    },
+    {
+      "ID": 73,
+      "Name": "Estoc Aérienne",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 214,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 58,
+      "JP": 300,
+      "HPCost": 0,
+      "MPCost": 0,
+      "APCost": 6,
+      "CTCost": 0,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 0,
+      "EnabledWeaponTypes": [
+        0,
+        3
+      ],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": true,
+      "Attribute": 0,
+      "IsPAbil": true,
+      "IsMAbil": false,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 100,
+      "MndRate": 0,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": 50,
+      "ScalingPower": 50,
+      "BasePAtkRate": 100,
+      "BasePower": 0,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 100,
+      "MDefRate": 0,
+      "Element": null,
+      "TargetStatuses": [],
+      "UserStatuses": [],
+      "AbilityMods": [
+        {
+          "Tag": 20,
+          "Value1": 0,
+          "Value2": 0
+        }
+      ]
+    },
+    {
+      "ID": 74,
+      "Name": "Estoc Perforant",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 213,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 106,
+      "JP": 200,
+      "HPCost": 0,
+      "MPCost": 0,
+      "APCost": 6,
+      "CTCost": 0,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 0,
+      "EnabledWeaponTypes": [
+        0,
+        3
+      ],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": true,
+      "Attribute": 0,
+      "IsPAbil": true,
+      "IsMAbil": false,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 100,
+      "MndRate": 0,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": 50,
+      "ScalingPower": 50,
+      "BasePAtkRate": 100,
+      "BasePower": 0,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 75,
+      "MDefRate": 0,
+      "Element": null,
+      "TargetStatuses": [],
+      "UserStatuses": [],
+      "AbilityMods": []
+    },
+    {
+      "ID": 75,
+      "Name": "Lame Frigide",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 215,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 107,
+      "JP": 300,
+      "HPCost": 0,
+      "MPCost": 0,
+      "APCost": 6,
+      "CTCost": 0,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 0,
+      "EnabledWeaponTypes": [
+        0,
+        3
+      ],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": true,
+      "Attribute": 0,
+      "IsPAbil": true,
+      "IsMAbil": false,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 100,
+      "MndRate": 0,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": 50,
+      "ScalingPower": 50,
+      "BasePAtkRate": 100,
+      "BasePower": 0,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 100,
+      "MDefRate": 0,
+      "Element": 1,
+      "TargetStatuses": [],
+      "UserStatuses": [],
+      "AbilityMods": [
+        {
+          "Tag": 40,
+          "Value1": 0,
+          "Value2": -50
+        }
+      ]
+    },
+    {
+      "ID": 76,
+      "Name": "Estoc Papillon",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 212,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 105,
+      "JP": 200,
+      "HPCost": 0,
+      "MPCost": 0,
+      "APCost": 6,
+      "CTCost": 0,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 1,
+      "Target": 0,
+      "EnabledWeaponTypes": [
+        0,
+        3
+      ],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": true,
+      "Attribute": 0,
+      "IsPAbil": true,
+      "IsMAbil": false,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 100,
+      "MndRate": 0,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": 50,
+      "ScalingPower": 50,
+      "BasePAtkRate": 100,
+      "BasePower": 0,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 100,
+      "MDefRate": 0,
+      "Element": null,
+      "TargetStatuses": [],
+      "UserStatuses": [],
+      "AbilityMods": []
+    },
+    {
+      "ID": 77,
+      "Name": "Assaut Crépusculaire",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 216,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 109,
+      "JP": 400,
+      "HPCost": 0,
+      "MPCost": 0,
+      "APCost": 6,
+      "CTCost": 0,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 0,
+      "EnabledWeaponTypes": [
+        0,
+        3
+      ],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": true,
+      "Attribute": 0,
+      "IsPAbil": true,
+      "IsMAbil": false,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 100,
+      "MndRate": 0,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": 50,
+      "ScalingPower": 50,
+      "BasePAtkRate": 100,
+      "BasePower": 0,
+      "BaseAcc": 0,
+      "BaseCritChance": -30,
+      "BaseCritDmg": 150,
+      "BaseVar": 0,
+      "PDefRate": 100,
+      "MDefRate": 0,
+      "Element": null,
+      "TargetStatuses": [],
+      "UserStatuses": [],
+      "AbilityMods": []
+    },
+    {
+      "ID": 78,
+      "Name": "Échec et Mat",
+      "Comments": "Note: This used to have a small chance to instant kill, but I decided instant kill mechanics are bad.",
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 217,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 108,
+      "JP": 500,
+      "HPCost": 0,
+      "MPCost": 0,
+      "APCost": 6,
+      "CTCost": 0,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 0,
+      "EnabledWeaponTypes": [
+        0,
+        3
+      ],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": true,
+      "Attribute": 0,
+      "IsPAbil": true,
+      "IsMAbil": false,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 100,
+      "MndRate": 0,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": 50,
+      "ScalingPower": 50,
+      "BasePAtkRate": 100,
+      "BasePower": 0,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 100,
+      "MDefRate": 0,
+      "Element": null,
+      "TargetStatuses": [],
+      "UserStatuses": [],
+      "AbilityMods": [
+        {
+          "Tag": 116,
+          "Value1": 10,
+          "Value2": 500
+        },
+        {
+          "Tag": 115,
+          "Value1": 50,
+          "Value2": 0
+        }
+      ]
+    },
+    {
+      "ID": 79,
+      "Name": "Posture de l’Aigle",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 219,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 281,
+      "JP": 100,
+      "HPCost": 0,
+      "MPCost": 0,
+      "APCost": 0,
+      "CTCost": 0,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 2,
+      "EnabledWeaponTypes": [],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": false,
+      "IsMAbil": false,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 0,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": null,
+      "ScalingPower": null,
+      "BasePAtkRate": 0,
+      "BasePower": 0,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 0,
+      "MDefRate": 0,
+      "Element": null,
+      "TargetStatuses": [
+        {
+          "StatusID": 22,
+          "Chance": 100,
+          "Count": 1
+        }
+      ],
+      "UserStatuses": [],
+      "AbilityMods": []
+    },
+    {
+      "ID": 80,
+      "Name": "Posture du Faucon",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 218,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 281,
+      "JP": 100,
+      "HPCost": 0,
+      "MPCost": 0,
+      "APCost": 0,
+      "CTCost": 0,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 2,
+      "EnabledWeaponTypes": [],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": false,
+      "IsMAbil": false,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 0,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": null,
+      "ScalingPower": null,
+      "BasePAtkRate": 0,
+      "BasePower": 0,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 0,
+      "MDefRate": 0,
+      "Element": null,
+      "TargetStatuses": [
+        {
+          "StatusID": 23,
+          "Chance": 100,
+          "Count": 1
+        }
+      ],
+      "UserStatuses": [],
+      "AbilityMods": []
+    },
+    {
+      "ID": 112,
+      "Name": "Posture Réflexes",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 174,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 281,
+      "JP": 100,
+      "HPCost": 0,
+      "MPCost": 0,
+      "APCost": 6,
+      "CTCost": 0,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 2,
+      "EnabledWeaponTypes": [],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": false,
+      "IsMAbil": false,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 0,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": null,
+      "ScalingPower": null,
+      "BasePAtkRate": 0,
+      "BasePower": 0,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 0,
+      "MDefRate": 0,
+      "Element": null,
+      "TargetStatuses": [
+        {
+          "StatusID": 92,
+          "Chance": 100,
+          "Count": 1
+        }
+      ],
+      "UserStatuses": [],
+      "AbilityMods": []
+    },
+    {
+      "ID": 124,
+      "Name": "Flux Vital",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 202,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 317,
+      "JP": 200,
+      "HPCost": 0,
+      "MPCost": 12,
+      "APCost": 0,
+      "CTCost": 0,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 1,
+      "EnabledWeaponTypes": [],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": false,
+      "IsMAbil": true,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 0,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": null,
+      "ScalingPower": null,
+      "BasePAtkRate": 0,
+      "BasePower": 0,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 0,
+      "MDefRate": 0,
+      "Element": null,
+      "TargetStatuses": [
+        {
+          "StatusID": 37,
+          "Chance": 100,
+          "Count": 4
+        }
+      ],
+      "UserStatuses": [],
+      "AbilityMods": []
+    },
+    {
+      "ID": 125,
+      "Name": "Flux Energétique",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 203,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 317,
+      "JP": 300,
+      "HPCost": 0,
+      "MPCost": 12,
+      "APCost": 0,
+      "CTCost": 0,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 1,
+      "EnabledWeaponTypes": [],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": false,
+      "IsMAbil": true,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 0,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": null,
+      "ScalingPower": null,
+      "BasePAtkRate": 0,
+      "BasePower": 0,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 0,
+      "MDefRate": 0,
+      "Element": null,
+      "TargetStatuses": [
+        {
+          "StatusID": 38,
+          "Chance": 100,
+          "Count": 4
+        }
+      ],
+      "UserStatuses": [],
+      "AbilityMods": []
+    },
+    {
+      "ID": 126,
+      "Name": "Carapace",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 200,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 184,
+      "JP": 200,
+      "HPCost": 0,
+      "MPCost": 10,
+      "APCost": 0,
+      "CTCost": 0,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 1,
+      "EnabledWeaponTypes": [],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": false,
+      "IsMAbil": true,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 0,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": null,
+      "ScalingPower": null,
+      "BasePAtkRate": 0,
+      "BasePower": 0,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 0,
+      "MDefRate": 0,
+      "Element": null,
+      "TargetStatuses": [
+        {
+          "StatusID": 13,
+          "Chance": 100,
+          "Count": 4
+        }
+      ],
+      "UserStatuses": [],
+      "AbilityMods": []
+    },
+    {
+      "ID": 127,
+      "Name": "Bouclier",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 201,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 185,
+      "JP": 200,
+      "HPCost": 0,
+      "MPCost": 10,
+      "APCost": 0,
+      "CTCost": 0,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 1,
+      "EnabledWeaponTypes": [],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": false,
+      "IsMAbil": true,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 0,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": null,
+      "ScalingPower": null,
+      "BasePAtkRate": 0,
+      "BasePower": 0,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 0,
+      "MDefRate": 0,
+      "Element": null,
+      "TargetStatuses": [
+        {
+          "StatusID": 15,
+          "Chance": 100,
+          "Count": 4
+        }
+      ],
+      "UserStatuses": [],
+      "AbilityMods": []
+    },
+    {
+      "ID": 128,
+      "Name": "Dissipation",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 204,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 25,
+      "JP": 400,
+      "HPCost": 0,
+      "MPCost": 22,
+      "APCost": 0,
+      "CTCost": 0,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 0,
+      "EnabledWeaponTypes": [],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": false,
+      "IsMAbil": true,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 0,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": null,
+      "ScalingPower": null,
+      "BasePAtkRate": 0,
+      "BasePower": 0,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 0,
+      "MDefRate": 0,
+      "Element": null,
+      "TargetStatuses": [],
+      "UserStatuses": [],
+      "AbilityMods": [
+        {
+          "Tag": 77,
+          "Value1": 1,
+          "Value2": 0
+        },
+        {
+          "Tag": 77,
+          "Value1": 2,
+          "Value2": 0
+        }
+      ]
+    },
+    {
       "ID": 162,
       "Name": "Tranche-bec",
       "Comments": "Attaque : Puissante\nBasée sur la Dextérité\nPeu efficace contre la défense\nInflige un malus",
@@ -31658,6 +34367,71 @@
       "AbilityMods": []
     },
     {
+      "ID": 233,
+      "Name": "Double Incantation",
+      "Comments": "Cast two (or perhaps more!) \"Red Magic\" spells in a row.",
+      "Flavor": null,
+      "Description": "Instantly cast two @J14.Command spells back-to-back.",
+      "SortOrder": 209,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": 233,
+      "AnimationID": 232,
+      "JP": 400,
+      "HPCost": 0,
+      "MPCost": 24,
+      "APCost": 0,
+      "CTCost": 0,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 2,
+      "EnabledWeaponTypes": [],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": false,
+      "IsMAbil": true,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 0,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": null,
+      "ScalingPower": null,
+      "BasePAtkRate": 0,
+      "BasePower": 0,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 0,
+      "MDefRate": 0,
+      "Element": null,
+      "TargetStatuses": [
+        {
+          "StatusID": 77,
+          "Chance": 100,
+          "Count": 2
+        }
+      ],
+      "UserStatuses": [],
+      "AbilityMods": []
+    },
+    {
       "ID": 252,
       "Name": "Morsure",
       "Comments": null,
@@ -31772,6 +34546,71 @@
       "MDefRate": 0,
       "Element": null,
       "TargetStatuses": [],
+      "UserStatuses": [],
+      "AbilityMods": []
+    },
+    {
+      "ID": 257,
+      "Name": "Brasier Persistant",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 205,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 62,
+      "JP": 100,
+      "HPCost": 0,
+      "MPCost": 5,
+      "APCost": 0,
+      "CTCost": 0,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 0,
+      "EnabledWeaponTypes": [],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": false,
+      "IsMAbil": true,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 100,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": null,
+      "ScalingPower": 140,
+      "BasePAtkRate": 0,
+      "BasePower": 60,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 0,
+      "MDefRate": 100,
+      "Element": 0,
+      "TargetStatuses": [
+        {
+          "StatusID": 6,
+          "Chance": 100,
+          "Count": 3
+        }
+      ],
       "UserStatuses": [],
       "AbilityMods": []
     },
@@ -33044,8 +35883,8 @@
       "Flavor": null,
       "Description": "Une flamme vive s’élève du bout des doigts du mage, frappant une seule cible pouvant l'enflamer",
       "SortOrder": 40,
-      "TexturePath": null,
-      "TextureIndex": 0,
+      "TexturePath": "",
+      "TextureIndex": 2,
       "HideDamageFromDescription": false,
       "HideScopeFromDescription": false,
       "HideStatusesFromDescription": false,
@@ -33289,6 +36128,319 @@
       "Element": null,
       "TargetStatuses": [],
       "UserStatuses": [],
+      "AbilityMods": []
+    },
+    {
+      "ID": 315,
+      "Name": "Soin Eclair",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 197,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 21,
+      "JP": 0,
+      "HPCost": 0,
+      "MPCost": 5,
+      "APCost": 0,
+      "CTCost": 0,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": true,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 1,
+      "EnabledWeaponTypes": [],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": false,
+      "IsMAbil": true,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 0,
+      "SpiRate": 100,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": null,
+      "ScalingPower": -140,
+      "BasePAtkRate": 0,
+      "BasePower": -40,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 0,
+      "MDefRate": 0,
+      "Element": null,
+      "TargetStatuses": [],
+      "UserStatuses": [],
+      "AbilityMods": []
+    },
+    {
+      "ID": 316,
+      "Name": "Soin Purificateur",
+      "Comments": null,
+      "Flavor": null,
+      "Description": "",
+      "SortOrder": 198,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 33,
+      "JP": 100,
+      "HPCost": 0,
+      "MPCost": 5,
+      "APCost": 0,
+      "CTCost": 0,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": true,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 1,
+      "EnabledWeaponTypes": [],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": false,
+      "IsMAbil": true,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 0,
+      "SpiRate": 100,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": null,
+      "ScalingPower": -120,
+      "BasePAtkRate": 0,
+      "BasePower": -20,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 0,
+      "MDefRate": 0,
+      "Element": null,
+      "TargetStatuses": [],
+      "UserStatuses": [],
+      "AbilityMods": [
+        {
+          "Tag": 77,
+          "Value1": 2,
+          "Value2": 0
+        }
+      ]
+    },
+    {
+      "ID": 317,
+      "Name": "Seconde Chance",
+      "Comments": "",
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 199,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 338,
+      "JP": 200,
+      "HPCost": 0,
+      "MPCost": 14,
+      "APCost": 0,
+      "CTCost": 0,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": true,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 4,
+      "EnabledWeaponTypes": [],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": false,
+      "IsMAbil": true,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 0,
+      "SpiRate": 100,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": null,
+      "ScalingPower": -80,
+      "BasePAtkRate": 0,
+      "BasePower": -50,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 0,
+      "MDefRate": 0,
+      "Element": null,
+      "TargetStatuses": [],
+      "UserStatuses": [],
+      "AbilityMods": []
+    },
+    {
+      "ID": 319,
+      "Name": "Gel Fragilisant",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 207,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 102,
+      "JP": 100,
+      "HPCost": 0,
+      "MPCost": 7,
+      "APCost": 0,
+      "CTCost": 0,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 0,
+      "EnabledWeaponTypes": [],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": false,
+      "IsMAbil": true,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 100,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": null,
+      "ScalingPower": 150,
+      "BasePAtkRate": 0,
+      "BasePower": 60,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 0,
+      "MDefRate": 100,
+      "Element": 1,
+      "TargetStatuses": [
+        {
+          "StatusID": 19,
+          "Chance": 100,
+          "Count": 1
+        }
+      ],
+      "UserStatuses": [],
+      "AbilityMods": []
+    },
+    {
+      "ID": 322,
+      "Name": "Vague Exaltante",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 206,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": false,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": 324,
+      "JP": 100,
+      "HPCost": 0,
+      "MPCost": 6,
+      "APCost": 0,
+      "CTCost": 0,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": false,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 0,
+      "EnabledWeaponTypes": [],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": false,
+      "IsMAbil": true,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 100,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": null,
+      "ScalingPower": 145,
+      "BasePAtkRate": 0,
+      "BasePower": 60,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 0,
+      "MDefRate": 100,
+      "Element": 5,
+      "TargetStatuses": [],
+      "UserStatuses": [
+        {
+          "StatusID": 14,
+          "Chance": 100,
+          "Count": 1
+        }
+      ],
       "AbilityMods": []
     },
     {
@@ -38143,7 +41295,7 @@
     },
     {
       "ID": 8,
-      "Name": "Mage Violet",
+      "Name": "Chaman",
       "Comments": "",
       "Flavor": null,
       "Description": "Un mage maîtrisant aussi bien la magie offensive que de soutien.",
@@ -46899,6 +50051,94 @@
   ],
   "Passives": [
     {
+      "ID": 0,
+      "Name": "Contre-Attaque",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "HideStatModsFromDescription": false,
+      "SortOrder": 8,
+      "JP": 300,
+      "PP": 3,
+      "IsInnate": false,
+      "IsLearnable": true,
+      "IsDefaultLocked": false,
+      "StatMods": [
+        {
+          "Tag": 403,
+          "Value1": 0,
+          "Value2": 69,
+          "Value3": 0
+        }
+      ]
+    },
+    {
+      "ID": 2,
+      "Name": "Charge du Bagarreur",
+      "Comments": "Enables decent unarmed combat.",
+      "Flavor": null,
+      "Description": null,
+      "HideStatModsFromDescription": false,
+      "SortOrder": 6,
+      "JP": 300,
+      "PP": 1,
+      "IsInnate": true,
+      "IsLearnable": true,
+      "IsDefaultLocked": false,
+      "StatMods": [
+        {
+          "Tag": 505,
+          "Value1": 0,
+          "Value2": 0,
+          "Value3": 0
+        }
+      ]
+    },
+    {
+      "ID": 4,
+      "Name": "Adrénaline",
+      "Comments": "Not sure if it should be OnBattleStart or OnAttack",
+      "Flavor": null,
+      "Description": null,
+      "HideStatModsFromDescription": false,
+      "SortOrder": 1,
+      "JP": 300,
+      "PP": 3,
+      "IsInnate": false,
+      "IsLearnable": true,
+      "IsDefaultLocked": false,
+      "StatMods": [
+        {
+          "Tag": 250,
+          "Value1": 6,
+          "Value2": 0,
+          "Value3": 0
+        }
+      ]
+    },
+    {
+      "ID": 5,
+      "Name": "Rancunes",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "HideStatModsFromDescription": false,
+      "SortOrder": 2,
+      "JP": 400,
+      "PP": 4,
+      "IsInnate": false,
+      "IsLearnable": true,
+      "IsDefaultLocked": false,
+      "StatMods": [
+        {
+          "Tag": 253,
+          "Value1": 6,
+          "Value2": 0,
+          "Value3": 0
+        }
+      ]
+    },
+    {
       "ID": 6,
       "Name": "Maîtrise Epée",
       "Comments": null,
@@ -46937,6 +50177,50 @@
         {
           "Tag": 406,
           "Value1": 1,
+          "Value2": 0,
+          "Value3": 0
+        }
+      ]
+    },
+    {
+      "ID": 8,
+      "Name": "Bonus HP",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "HideStatModsFromDescription": false,
+      "SortOrder": 7,
+      "JP": 300,
+      "PP": 4,
+      "IsInnate": false,
+      "IsLearnable": true,
+      "IsDefaultLocked": false,
+      "StatMods": [
+        {
+          "Tag": 20,
+          "Value1": 20,
+          "Value2": 0,
+          "Value3": 0
+        }
+      ]
+    },
+    {
+      "ID": 9,
+      "Name": "Assassin de l'Ombre",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "HideStatModsFromDescription": false,
+      "SortOrder": 10,
+      "JP": 300,
+      "PP": 4,
+      "IsInnate": false,
+      "IsLearnable": true,
+      "IsDefaultLocked": false,
+      "StatMods": [
+        {
+          "Tag": 502,
+          "Value1": 20,
           "Value2": 0,
           "Value3": 0
         }
@@ -46986,7 +50270,31 @@
         },
         {
           "Tag": 405,
+          "Value1": 1,
+          "Value2": 15,
+          "Value3": 0
+        },
+        {
+          "Tag": 405,
+          "Value1": 2,
+          "Value2": 15,
+          "Value3": 0
+        },
+        {
+          "Tag": 405,
+          "Value1": 3,
+          "Value2": 15,
+          "Value3": 0
+        },
+        {
+          "Tag": 405,
           "Value1": 4,
+          "Value2": 15,
+          "Value3": 0
+        },
+        {
+          "Tag": 405,
+          "Value1": 5,
           "Value2": 15,
           "Value3": 0
         }
@@ -47037,6 +50345,50 @@
       ]
     },
     {
+      "ID": 17,
+      "Name": "Oeil d'Assassin",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "HideStatModsFromDescription": false,
+      "SortOrder": 9,
+      "JP": 500,
+      "PP": 6,
+      "IsInnate": true,
+      "IsLearnable": false,
+      "IsDefaultLocked": false,
+      "StatMods": [
+        {
+          "Tag": 43,
+          "Value1": 20,
+          "Value2": 0,
+          "Value3": 0
+        }
+      ]
+    },
+    {
+      "ID": 20,
+      "Name": "Serre d’Aigle",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "HideStatModsFromDescription": false,
+      "SortOrder": 22,
+      "JP": 500,
+      "PP": 7,
+      "IsInnate": true,
+      "IsLearnable": false,
+      "IsDefaultLocked": false,
+      "StatMods": [
+        {
+          "Tag": 44,
+          "Value1": 60,
+          "Value2": 0,
+          "Value3": 0
+        }
+      ]
+    },
+    {
       "ID": 22,
       "Name": "Maîtrise Rapière",
       "Comments": null,
@@ -47081,6 +50433,28 @@
       ]
     },
     {
+      "ID": 32,
+      "Name": "Régénérateur HP",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "HideStatModsFromDescription": false,
+      "SortOrder": 20,
+      "JP": 300,
+      "PP": 3,
+      "IsInnate": false,
+      "IsLearnable": true,
+      "IsDefaultLocked": false,
+      "StatMods": [
+        {
+          "Tag": 402,
+          "Value1": 37,
+          "Value2": 100,
+          "Value3": 6
+        }
+      ]
+    },
+    {
       "ID": 34,
       "Name": "Maîtrise Lance",
       "Comments": "Note: This might need a high PP cost because spear skills on Aegis might be very strong.\r\nTODO: Verify this note!",
@@ -47099,6 +50473,28 @@
           "Value1": 5,
           "Value2": 0,
           "Value3": 0
+        }
+      ]
+    },
+    {
+      "ID": 37,
+      "Name": "Régénérateur MP",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "HideStatModsFromDescription": false,
+      "SortOrder": 21,
+      "JP": 300,
+      "PP": 4,
+      "IsInnate": false,
+      "IsLearnable": true,
+      "IsDefaultLocked": false,
+      "StatMods": [
+        {
+          "Tag": 402,
+          "Value1": 38,
+          "Value2": 100,
+          "Value3": 6
         }
       ]
     },
@@ -47164,6 +50560,50 @@
           "Tag": 406,
           "Value1": 7,
           "Value2": 0,
+          "Value3": 0
+        }
+      ]
+    },
+    {
+      "ID": 49,
+      "Name": "Œil d’Aigle",
+      "Comments": null,
+      "Flavor": null,
+      "Description": "The first physical attack given is guaranteed to not miss.",
+      "HideStatModsFromDescription": true,
+      "SortOrder": 23,
+      "JP": 200,
+      "PP": 2,
+      "IsInnate": false,
+      "IsLearnable": true,
+      "IsDefaultLocked": false,
+      "StatMods": [
+        {
+          "Tag": 402,
+          "Value1": 96,
+          "Value2": 100,
+          "Value3": 1
+        }
+      ]
+    },
+    {
+      "ID": 54,
+      "Name": "Jet de Poussière",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "HideStatModsFromDescription": false,
+      "SortOrder": 11,
+      "JP": 100,
+      "PP": 1,
+      "IsInnate": false,
+      "IsLearnable": true,
+      "IsDefaultLocked": false,
+      "StatMods": [
+        {
+          "Tag": 403,
+          "Value1": 2,
+          "Value2": 172,
           "Value3": 0
         }
       ]
@@ -47341,6 +50781,116 @@
           "Value3": 1
         }
       ]
+    },
+    {
+      "ID": 72,
+      "Name": "Guerrier",
+      "Comments": "AP per turn is kinda busted, but if I restrict it to ONLY Warrior main jobs, it might not be so bad.",
+      "Flavor": null,
+      "Description": null,
+      "HideStatModsFromDescription": false,
+      "SortOrder": 0,
+      "JP": 500,
+      "PP": 4,
+      "IsInnate": true,
+      "IsLearnable": false,
+      "IsDefaultLocked": false,
+      "StatMods": [
+        {
+          "Tag": 251,
+          "Value1": 2,
+          "Value2": 0,
+          "Value3": 0
+        }
+      ]
+    },
+    {
+      "ID": 74,
+      "Name": "Synergie Incantatoire",
+      "Comments": "",
+      "Flavor": null,
+      "Description": null,
+      "HideStatModsFromDescription": false,
+      "SortOrder": 19,
+      "JP": 500,
+      "PP": 8,
+      "IsInnate": true,
+      "IsLearnable": false,
+      "IsDefaultLocked": false,
+      "StatMods": [
+        {
+          "Tag": 483,
+          "Value1": 233,
+          "Value2": -16,
+          "Value3": 0
+        }
+      ]
+    },
+    {
+      "ID": 76,
+      "Name": "Main Salvatrice",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "HideStatModsFromDescription": false,
+      "SortOrder": 13,
+      "JP": 500,
+      "PP": 4,
+      "IsInnate": true,
+      "IsLearnable": false,
+      "IsDefaultLocked": false,
+      "StatMods": [
+        {
+          "Tag": 559,
+          "Value1": 20,
+          "Value2": 0,
+          "Value3": 0
+        }
+      ]
+    },
+    {
+      "ID": 77,
+      "Name": "Chaleur Intérieure",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "HideStatModsFromDescription": false,
+      "SortOrder": 14,
+      "JP": 200,
+      "PP": 1,
+      "IsInnate": false,
+      "IsLearnable": true,
+      "IsDefaultLocked": false,
+      "StatMods": [
+        {
+          "Tag": 276,
+          "Value1": 6,
+          "Value2": 10,
+          "Value3": 0
+        }
+      ]
+    },
+    {
+      "ID": 87,
+      "Name": "Aura Nocive",
+      "Comments": "",
+      "Flavor": null,
+      "Description": null,
+      "HideStatModsFromDescription": false,
+      "SortOrder": 5,
+      "JP": 500,
+      "PP": 5,
+      "IsInnate": true,
+      "IsLearnable": false,
+      "IsDefaultLocked": false,
+      "StatMods": [
+        {
+          "Tag": 53,
+          "Value1": 25,
+          "Value2": 0,
+          "Value3": 0
+        }
+      ]
     }
   ],
   "Recipes": [],
@@ -47348,7 +50898,7 @@
   "Statuses": [
     {
       "ID": 16,
-      "Name": "Baisse Attaque",
+      "Name": "Attaque -",
       "Comments": null,
       "Flavor": null,
       "Description": null,
@@ -47404,7 +50954,7 @@
     },
     {
       "ID": 17,
-      "Name": "Baisse Armure",
+      "Name": "Armure -",
       "Comments": null,
       "Flavor": null,
       "Description": null,
@@ -47554,6 +51104,42 @@
           "PosX": 2.0,
           "PosY": 0.0,
           "PosZ": 3.0,
+          "BeginBattleDead": false
+        }
+      ]
+    },
+    {
+      "ID": 340,
+      "Name": "Z1 Lueur Errante x3 Limon x1",
+      "SortOrder": 6,
+      "ScaledOrder": 0,
+      "Members": [
+        {
+          "MonsterID": 3,
+          "PosX": -4.0,
+          "PosY": 2.0,
+          "PosZ": 0.0,
+          "BeginBattleDead": false
+        },
+        {
+          "MonsterID": 3,
+          "PosX": -2.0,
+          "PosY": 2.0,
+          "PosZ": -3.0,
+          "BeginBattleDead": false
+        },
+        {
+          "MonsterID": 3,
+          "PosX": -2.0,
+          "PosY": 2.0,
+          "PosZ": 3.0,
+          "BeginBattleDead": false
+        },
+        {
+          "MonsterID": 2,
+          "PosX": 1.0,
+          "PosY": 0.0,
+          "PosZ": 0.0,
           "BeginBattleDead": false
         }
       ]
@@ -60005,6 +63591,117 @@
       "MarkerData": null
     },
     {
+      "ID": 56,
+      "Coord": {
+        "X": 57,
+        "Y": 106,
+        "Z": -23
+      },
+      "BiomeID": 1,
+      "EntityType": 2,
+      "Comments": null,
+      "NpcData": null,
+      "SignData": null,
+      "SparkData": {
+        "SparkID": 3,
+        "IsUnique": false,
+        "IsGiant": false,
+        "SetGlobalFlagOnVictory": null,
+        "GlobalFlagOnVictoryIsTrue": true,
+        "GlobalFlagOnVictoryIsTemp": false,
+        "UnSetGlobalFlagOnSpawn": false,
+        "TriggerNpcOnVictory": null,
+        "TroopPages": [
+          {
+            "TroopID": 2,
+            "Rate": 100,
+            "IsNegation": false,
+            "MinDifficultyID": null,
+            "Condition": null
+          }
+        ]
+      },
+      "DoorData": null,
+      "HomePointData": null,
+      "TreasureData": null,
+      "CrystalData": null,
+      "MarkerData": null
+    },
+    {
+      "ID": 46,
+      "Coord": {
+        "X": 74,
+        "Y": 109,
+        "Z": -38
+      },
+      "BiomeID": 1,
+      "EntityType": 2,
+      "Comments": null,
+      "NpcData": null,
+      "SignData": null,
+      "SparkData": {
+        "SparkID": 3,
+        "IsUnique": false,
+        "IsGiant": false,
+        "SetGlobalFlagOnVictory": null,
+        "GlobalFlagOnVictoryIsTrue": true,
+        "GlobalFlagOnVictoryIsTemp": false,
+        "UnSetGlobalFlagOnSpawn": false,
+        "TriggerNpcOnVictory": null,
+        "TroopPages": [
+          {
+            "TroopID": 6,
+            "Rate": 100,
+            "IsNegation": false,
+            "MinDifficultyID": null,
+            "Condition": null
+          }
+        ]
+      },
+      "DoorData": null,
+      "HomePointData": null,
+      "TreasureData": null,
+      "CrystalData": null,
+      "MarkerData": null
+    },
+    {
+      "ID": 16,
+      "Coord": {
+        "X": 76,
+        "Y": 117,
+        "Z": -46
+      },
+      "BiomeID": 1,
+      "EntityType": 2,
+      "Comments": null,
+      "NpcData": null,
+      "SignData": null,
+      "SparkData": {
+        "SparkID": 3,
+        "IsUnique": false,
+        "IsGiant": false,
+        "SetGlobalFlagOnVictory": null,
+        "GlobalFlagOnVictoryIsTrue": true,
+        "GlobalFlagOnVictoryIsTemp": false,
+        "UnSetGlobalFlagOnSpawn": false,
+        "TriggerNpcOnVictory": null,
+        "TroopPages": [
+          {
+            "TroopID": 5,
+            "Rate": 100,
+            "IsNegation": false,
+            "MinDifficultyID": null,
+            "Condition": null
+          }
+        ]
+      },
+      "DoorData": null,
+      "HomePointData": null,
+      "TreasureData": null,
+      "CrystalData": null,
+      "MarkerData": null
+    },
+    {
       "ID": 951,
       "Coord": {
         "X": 767,
@@ -60392,6 +64089,104 @@
         "TroopPages": [
           {
             "TroopID": 339,
+            "Rate": 100,
+            "IsNegation": false,
+            "MinDifficultyID": null,
+            "Condition": null
+          }
+        ]
+      },
+      "DoorData": null,
+      "HomePointData": null,
+      "TreasureData": null,
+      "CrystalData": null,
+      "MarkerData": null
+    },
+    {
+      "ID": 5001,
+      "Coord": {
+        "X": 101,
+        "Y": 114,
+        "Z": -38
+      },
+      "BiomeID": 1,
+      "EntityType": 2,
+      "Comments": null,
+      "NpcData": null,
+      "SignData": null,
+      "SparkData": {
+        "SparkID": 3,
+        "IsUnique": false,
+        "IsGiant": false,
+        "SetGlobalFlagOnVictory": null,
+        "GlobalFlagOnVictoryIsTrue": false,
+        "GlobalFlagOnVictoryIsTemp": false,
+        "UnSetGlobalFlagOnSpawn": false,
+        "TriggerNpcOnVictory": null,
+        "TroopPages": [
+          {
+            "TroopID": 340,
+            "Rate": 100,
+            "IsNegation": false,
+            "MinDifficultyID": null,
+            "Condition": null
+          }
+        ]
+      },
+      "DoorData": null,
+      "HomePointData": null,
+      "TreasureData": null,
+      "CrystalData": null,
+      "MarkerData": null
+    },
+    {
+      "ID": 5002,
+      "Coord": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "BiomeID": 0,
+      "EntityType": 1,
+      "Comments": null,
+      "NpcData": null,
+      "SignData": {
+        "Title": null,
+        "Message": null,
+        "Facing": 5,
+        "SignType": 0
+      },
+      "SparkData": null,
+      "DoorData": null,
+      "HomePointData": null,
+      "TreasureData": null,
+      "CrystalData": null,
+      "MarkerData": null
+    },
+    {
+      "ID": 5003,
+      "Coord": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "BiomeID": 0,
+      "EntityType": 2,
+      "Comments": null,
+      "NpcData": null,
+      "SignData": null,
+      "SparkData": {
+        "SparkID": 0,
+        "IsUnique": false,
+        "IsGiant": false,
+        "SetGlobalFlagOnVictory": null,
+        "GlobalFlagOnVictoryIsTrue": false,
+        "GlobalFlagOnVictoryIsTemp": false,
+        "UnSetGlobalFlagOnSpawn": false,
+        "TriggerNpcOnVictory": null,
+        "TroopPages": [
+          {
+            "TroopID": 0,
             "Rate": 100,
             "IsNegation": false,
             "MinDifficultyID": null,
